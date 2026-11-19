@@ -205,8 +205,12 @@ ELEGIR = """You are the news editor of "Leonida Report", an English-language You
 (Grand Theft Auto VI). Today is {hoy}. Below are recent headlines from gaming outlets.
 
 Group the headlines that are about the SAME story, then pick the ONE story that is best for a {formato} today.
-Prefer, in this order: official Rockstar / Take-Two news; stories covered by 2+ different outlets; stories with
-lasting interest for players (features, launch, sales, performance, controversies with context, industry).
+Prefer, in this order: stories that match what is TRENDING right now (list below: what people are watching and
+upvoting); official Rockstar / Take-Two news; stories covered by 2+ different outlets; stories with lasting
+interest for players (features, launch, sales, performance, controversies with context, industry).
+
+TRENDING NOW (most-viewed GTA 6 videos of the last 48 h and top Reddit posts today):
+{tendencias}
 AVOID: anything already covered (list below), piracy, leaked story spoilers, stories that are only about a
 streamer's personal life, tragedies, pure clickbait, and stories where the only source is an anonymous post.
 
@@ -242,8 +246,10 @@ def tema_noticia(formato, urls=None):
         lista = "\n".join(f"[{i}] ({it['medio']}, {it['fecha']}) {it['titulo']} — {it['resumen'][:160]}"
                           for i, it in enumerate(items))
         recientes = [v.get("tema") for v in db.videos()[-40:] if v.get("tema")]
+        from . import tendencias
         resp = ia.generar_json(ELEGIR.format(hoy=dt.date.today().isoformat(), lista=lista, formato=formato,
-                                             usados="; ".join(recientes) or "(nothing yet)"), intentos=2)
+                                             usados="; ".join(recientes) or "(nothing yet)",
+                                             tendencias=tendencias.para_prompt()), intentos=2)
         indices = [int(i) for i in resp.get("items") or [] if str(i).isdigit() and int(i) < len(items)]
         historia, clave = (resp.get("historia") or "").strip(), (resp.get("clave") or "").strip()
         estado = resp.get("estado") if resp.get("estado") in ("confirmed", "reported", "rumor") else "rumor"

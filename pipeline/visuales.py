@@ -157,7 +157,7 @@ def clip_real(consulta, destino, vertical, usados):
     return clip_pixabay(consulta, destino, vertical, usados)
 
 
-def preparar(escenas, carpeta, vertical, estilo, proporcion_real):
+def preparar(escenas, carpeta, vertical, estilo, proporcion_real, pool=None):
     """Asigna a cada escena una imagen IA o un clip real. Devuelve créditos de Pexels."""
     base = random.randint(1, 10_000_000)
     usados, creditos = set(), []
@@ -168,7 +168,18 @@ def preparar(escenas, carpeta, vertical, estilo, proporcion_real):
     reales = set()
     if (PEXELS_API_KEY or PIXABAY_API_KEY) and proporcion_real > 0:
         reales = set(random.sample(range(1, n), k=min(n - 1, round((n - 1) * proporcion_real))))
+    pool = list(pool or [])  # tramos de clips de streamers con permiso: [(ruta, credito)]
+    from .config import PROPORCION_CLIPS
     for i, esc in enumerate(escenas):
+        # La escena 1 (gancho) queda con imagen propia: los primeros segundos no deben mostrar violencia
+        if pool and i > 0 and random.random() < PROPORCION_CLIPS:
+            ruta_c, cred = pool.pop(0)
+            pool.append((ruta_c, cred))  # si hay pocos tramos, se reciclan
+            esc["visual"], esc["archivo"], esc["ajustar"] = "clip", ruta_c, True
+            if cred not in creditos:
+                creditos.append(cred)
+            print(f"[visual] {i + 1}/{n} clip de stream con permiso: {cred['autor']}")
+            continue
         if i in reales or (i > 0 and hay_propio and random.random() < 0.5):
             ruta = carpeta / f"vid_{i:03d}.mp4"
             info = clip_propio(ruta, usados) or clip_real(esc["stock"], ruta, vertical, usados)

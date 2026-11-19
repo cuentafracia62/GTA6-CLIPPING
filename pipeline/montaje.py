@@ -62,7 +62,14 @@ def clip_escena(esc, dur, mov, salida, w, h, escala):
     fades = f"fade=t=in:st=0:d=0.22,fade=t=out:st={max(0, dur - 0.18):.3f}:d=0.18"
     comunes = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS),
                "-an", str(salida)]
-    if esc["visual"] == "clip":
+    if esc["visual"] == "clip" and esc.get("ajustar") and h > w:
+        # Clip de stream (16:9) en un short (9:16): el clip entero al centro sobre su fondo desenfocado
+        fc = (f"[0:v]split[a][b];[a]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},"
+              f"boxblur=24:2,eq=brightness=-0.18[bg];[b]scale={w}:-2[fg];"
+              f"[bg][fg]overlay=(W-w)/2:(H-h)/2,fps={FPS},setpts=PTS-STARTPTS,{fades}[v]")
+        _ff(["-stream_loop", "-1", "-i", str(esc["archivo"]), "-t", f"{dur:.3f}", "-filter_complex", fc,
+             "-map", "[v]", "-frames:v", str(n), *comunes])
+    elif esc["visual"] == "clip":
         vf = (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},fps={FPS},"
               f"setpts=PTS-STARTPTS,{fades}")
         _ff(["-stream_loop", "-1", "-i", str(esc["archivo"]), "-t", f"{dur:.3f}", "-vf", vf, "-frames:v", str(n),

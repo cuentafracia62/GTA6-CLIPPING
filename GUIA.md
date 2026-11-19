@@ -89,6 +89,48 @@ Crea **claves nuevas solo para este canal**. Así cada canal tiene su propio lí
 GitHub → **Actions → Shorts diarios (GTA 6) → Run workflow**, con *subir* desactivado. Descarga el video desde los *artifacts* de la ejecución y revísalo.
 Si te gusta, ya no hace falta nada más: desde ese momento el sistema crea, programa y publica solo.
 
+## Clips de streamers (SOLO con permiso)
+El sistema usa clips reales de streams de GTA 6, pero **solo de streamers que te dieron permiso** (un programa de
+clipping, una campaña pagada o un permiso escrito). Nunca baja clips de nadie más, aunque sean virales.
+
+**Cómo agregar un streamer** (en GitHub → `data/permisos_clips.json` → lápiz ✏️ → *Commit changes*):
+```json
+[
+  {
+    "creador": "NombreDelStreamer",
+    "plataforma": "twitch",
+    "canal": "nombre_del_canal_en_twitch",
+    "programa": "Programa de clipping de X / campaña en Content Rewards",
+    "enlace_prueba_permiso": "https://enlace-a-la-campaña-o-al-mensaje-del-permiso",
+    "uso_comercial": true,
+    "atribucion": "Clip: NombreDelStreamer on Twitch, used with permission",
+    "max_segundos": 58,
+    "vence": "2026-12-31",
+    "activo": true,
+    "clips_manuales": []
+  }
+]
+```
+- `plataforma`: `twitch` o `kick`.
+- `enlace_prueba_permiso` y `uso_comercial: true` son **obligatorios**: sin ellos, ese streamer se ignora.
+- `vence`: la fecha en que termina la campaña (déjalo vacío si el permiso no vence).
+- `clips_manuales`: URLs de clips concretos que la campaña te pidió usar (sirve también si Kick bloquea la búsqueda).
+
+**Para Twitch** hacen falta 2 Secrets (gratis): entra a dev.twitch.tv/console → *Register Your Application*
+(OAuth Redirect URL: `http://localhost`, categoría *Application Integration*) → copia el *Client ID* y crea un
+*Client Secret*. Guárdalos en GitHub como `TWITCH_CLIENT_ID` y `TWITCH_CLIENT_SECRET`.
+
+**Qué hace con los clips:**
+- Más o menos la mitad de los shorts (`PROB_CLIP_SHORT`, por defecto `0.5`) son "clip del día": el clip con permiso
+  más visto de las últimas 72 h, con el clip entero al centro, título arriba, crédito abajo y una frase de voz al
+  inicio. La descripción lleva el enlace al clip original y la prueba del permiso.
+- En los demás videos, los clips se usan como imagen de fondo en la mayoría de las escenas (en vez de IA).
+- Si no hay ningún streamer con permiso, todo sigue como antes (noticias con imágenes).
+
+## Temas en tendencia
+Antes de elegir la noticia, el sistema mira los videos de GTA 6 más vistos en YouTube en las últimas 48 h y lo más
+votado del día en r/GTA6 y r/GTA, y prioriza las noticias que coinciden con eso.
+
 ## Horario automático (hora de Nueva York, ET)
 | Qué | Se crea | Se publica |
 |---|---|---|

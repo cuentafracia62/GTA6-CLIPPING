@@ -11,13 +11,14 @@
 import argparse
 import datetime as dt
 import json
+import random
 import re
 import shutil
 import sys
 import unicodedata
 
 from . import db, guion, ia, investigacion, miniatura, montaje, panel, visuales, voz, youtube
-from .config import (CANAL, LIMITE_SHORTS_DIA, MIN_MEDIOS_AUTO, MODO_REVISION, NOTICIA_SIN_VERIFICAR_PRIVADA, OUT,
+from .config import (CANAL, LIMITE_SHORTS_DIA, MIN_MEDIOS_AUTO, MODO_REVISION, PROB_CLIP_SHORT, NOTICIA_SIN_VERIFICAR_PRIVADA, OUT,
                      PUBLICAR_CON_RESPALDO, VOZ_RATE, VOZ_RATE_LARGO)
 
 
@@ -59,6 +60,9 @@ def metadatos(g, art, formato, capitulos, creditos):
             autores = ", ".join(dict.fromkeys(c["autor"] for c in creditos
                                               if c.get("autor") and c.get("fuente", "Pexels") == fuente))
             partes.append(f"🎞️ Footage: {fuente} ({autores}).")
+        for c in creditos:
+            if "permission" in c.get("fuente", "") and c.get("url"):
+                partes.append(f"🎮 Stream clip by {c['autor']}, used with permission: {c['url']}")
     partes.append("🎨 Illustrations are AI-generated and are NOT game screenshots. Narration uses a synthetic voice. "
                   "Rumors and opinions are labelled on screen.")
     partes.append("Leonida Report is an unofficial fan channel, not affiliated with Rockstar Games or "
@@ -145,8 +149,40 @@ def hace_falta_short():
     return True
 
 
+def _pool_clips(carpeta, n):
+    """Tramos de clips de streamers con permiso para usar como imagen en las escenas (b-roll)."""
+    from . import clips
+    pool = []
+    try:
+        for clip in clips.buscar()[:3]:
+            archivo = clips.descargar(clip, carpeta / f"broll_{len(pool)}.mp4")
+            if not archivo:
+                continue
+            cred = {"id": clip["id"], "autor": clip["creador"], "fuente": f"{clip['plataforma']} (with permission)",
+                    "url": clip["url"]}
+            pool += [(t, cred) for t in clips.tramos(archivo, carpeta, max(2, n // 2))]
+            if len(pool) >= n:
+                break
+    except Exception as e:  # noqa: BLE001
+        print(f"[main] no pude preparar clips de streams ({str(e)[:150]}); sigo sin ellos")
+    random.shuffle(pool)
+    return pool
+
+
 def crear_video(formato, tema=None, subir=True, prueba=False):
     vertical = formato == "short"
+    if vertical and not tema and random.random() < PROB_CLIP_SHORT:
+        from . import clipshort
+        with db.Ejecucion("short_clip") as ej:
+            try:
+                reg = clipshort.crear(subir=subir, prueba=prueba)
+            except Exception as e:  # noqa: BLE001
+                print(f"[main] el short de clip falló ({str(e)[:200]}); hago uno de noticia")
+                reg = None
+            if reg:
+                ej.nota(video=reg["id"], estado_video=reg.get("estado"))
+                return reg
+            print("[main] no hay clips con permiso disponibles: hago un short de noticia")
     with db.Ejecucion(formato) as ej:
         ia.reiniciar_costos()
         art = investigacion.elegir_tema(formato, tema)
@@ -186,7 +222,8 @@ def crear_video(formato, tema=None, subir=True, prueba=False):
 
         estilo = visuales.elegir_estilo()
         print(f"[main] estilo visual: {estilo['nombre']}")
-        creditos = visuales.preparar(escenas, trabajo, vertical, estilo, 0.3 if vertical else 0.6)
+        pool = _pool_clips(trabajo, len(escenas))
+        creditos = visuales.preparar(escenas, trabajo, vertical, estilo, 0.3 if vertical else 0.6, pool=pool)
 
         video = carpeta / ("short.mp4" if vertical else "video.mp4")
         info = montaje.montar(escenas, total_voz, trabajo, video, vertical, estilo,

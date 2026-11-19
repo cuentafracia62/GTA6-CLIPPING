@@ -77,6 +77,13 @@ MIN_MEDIOS_AUTO = int(os.getenv("MIN_MEDIOS_AUTO", "2"))
 # Búsqueda de Google dentro de Gemini: NO está en el plan gratis (responde 429). Actívala ("1") solo si pagas Gemini.
 GEMINI_BUSQUEDA = os.getenv("GEMINI_BUSQUEDA", "0") == "1"
 
+# ---------- Clips de streams (SOLO con permiso: data/permisos_clips.json) ----------
+TWITCH_CLIENT_ID = os.getenv("TWITCH_CLIENT_ID", "").strip()
+TWITCH_CLIENT_SECRET = os.getenv("TWITCH_CLIENT_SECRET", "").strip()
+CLIPS_HORAS = int(os.getenv("CLIPS_HORAS", "72"))           # antigüedad máxima de los clips que se buscan
+PROB_CLIP_SHORT = float(os.getenv("PROB_CLIP_SHORT", "0.5"))  # parte de los shorts que son "clip del día"
+PROPORCION_CLIPS = float(os.getenv("PROPORCION_CLIPS", "0.7"))  # escenas con clip real cuando hay clips
+
 # Noticias: feeds RSS públicos de medios de videojuegos (solo se toman los artículos que hablan de GTA 6)
 FEEDS = [x.strip() for x in os.getenv("FEEDS", ",".join([
     "https://www.ign.com/rss/articles/feed",
