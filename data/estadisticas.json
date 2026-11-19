@@ -1,1 +1,33 @@
-{}
+{
+  "videos": {
+    "ejF39BcES2Y": {
+      "vistas": 1,
+      "likes": 0,
+      "comentarios": 0,
+      "privacidad": "private",
+      "actualizado": "2026-11-19"
+    },
+    "fXiBwkDEVRM": {
+      "vistas": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "privacidad": "private",
+      "actualizado": "2026-11-19"
+    }
+  },
+  "historial_canal": [
+    {
+      "suscriptores": 0,
+      "vistas": 0,
+      "videos": 0,
+      "fecha": "2026-11-19"
+    }
+  ],
+  "canal": {
+    "suscriptores": 0,
+    "vistas": 0,
+    "videos": 0,
+    "fecha": "2026-11-19"
+  },
+  "actualizado": "2026-11-19T22:33:41+00:00"
+}
