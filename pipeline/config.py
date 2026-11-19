@@ -71,6 +71,11 @@ MODO_REVISION = os.getenv("MODO_REVISION", "0") == "1"
 # Candado del modo automático: una NOTICIA que no pasó la verificación con búsqueda web se sube PRIVADA
 # (para que la revises) en vez de publicarse sola. Los temas atemporales sí se publican.
 NOTICIA_SIN_VERIFICAR_PRIVADA = os.getenv("NOTICIA_SIN_VERIFICAR_PRIVADA", "1") == "1"
+# Verificación GRATIS (sin API de Claude): una noticia también se publica sola si sus fuentes vienen de al menos
+# esta cantidad de medios distintos (IGN, GamesRadar, VGC…). Con 1 solo medio, se sube privada.
+MIN_MEDIOS_AUTO = int(os.getenv("MIN_MEDIOS_AUTO", "2"))
+# Búsqueda de Google dentro de Gemini: NO está en el plan gratis (responde 429). Actívala ("1") solo si pagas Gemini.
+GEMINI_BUSQUEDA = os.getenv("GEMINI_BUSQUEDA", "0") == "1"
 
 # Noticias: feeds RSS públicos de medios de videojuegos (solo se toman los artículos que hablan de GTA 6)
 FEEDS = [x.strip() for x in os.getenv("FEEDS", ",".join([

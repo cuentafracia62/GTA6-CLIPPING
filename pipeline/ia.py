@@ -13,7 +13,7 @@ import time
 
 import requests
 
-from .config import (ANTHROPIC_API_KEY, CLAUDE_ESFUERZO, CLAUDE_MODELO, GEMINI_API_KEY, GEMINI_MODELOS,
+from .config import (GEMINI_BUSQUEDA, ANTHROPIC_API_KEY, CLAUDE_ESFUERZO, CLAUDE_MODELO, GEMINI_API_KEY, GEMINI_MODELOS,
                      POLLINATIONS_TOKEN, PRECIO_BUSQUEDA_WEB, PRECIOS)
 
 COSTOS = {"usd": 0.0, "llamadas": []}
@@ -162,6 +162,9 @@ def _vuelta_gemini(cliente, types, modelos, prompt, max_tokens, buscar_web=False
             ultimo = e
             if "404" in str(e):
                 _GEMINI_NO_EXISTE.add(modelo)
+            elif buscar_web and ("429" in str(e) or "RESOURCE_EXHAUSTED" in str(e)):
+                # La cuota de la BÚSQUEDA no es la de los guiones: no marco el modelo como agotado
+                return None, e
             elif "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
                 _GEMINI_AGOTADOS.add(modelo)
     return None, ultimo
@@ -237,7 +240,7 @@ def generar_json(prompt, validar=None, max_tokens=16000, intentos=2, buscar_web=
     errores = []
     lista = proveedores()
     if solo_buscador:  # solo los proveedores que de verdad buscan en internet
-        lista = [p for p in lista if p[0] in ("claude", "gemini")]
+        lista = [p for p in lista if p[0] == "claude" or (p[0] == "gemini" and GEMINI_BUSQUEDA)]
     for intento in range(intentos):
         for nombre, fn in lista:
             try:

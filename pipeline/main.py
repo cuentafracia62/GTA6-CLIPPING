@@ -17,7 +17,7 @@ import sys
 import unicodedata
 
 from . import db, guion, ia, investigacion, miniatura, montaje, panel, visuales, voz, youtube
-from .config import (CANAL, LIMITE_SHORTS_DIA, MODO_REVISION, NOTICIA_SIN_VERIFICAR_PRIVADA, OUT,
+from .config import (CANAL, LIMITE_SHORTS_DIA, MIN_MEDIOS_AUTO, MODO_REVISION, NOTICIA_SIN_VERIFICAR_PRIVADA, OUT,
                      PUBLICAR_CON_RESPALDO, VOZ_RATE, VOZ_RATE_LARGO)
 
 
@@ -231,10 +231,14 @@ def crear_video(formato, tema=None, subir=True, prueba=False):
                 print("[main] este tema ya se subió antes: no lo subo otra vez")
             else:
                 # Candado del modo automático: una noticia sin verificación web no se publica sola
+                medios = len(set(art.get("medios") or []))
                 revision = bool(not MODO_REVISION and NOTICIA_SIN_VERIFICAR_PRIVADA
-                                and art.get("categoria") == "noticia" and not g.get("verificado_web"))
+                                and art.get("categoria") == "noticia" and not g.get("verificado_web")
+                                and medios < MIN_MEDIOS_AUTO)
                 if revision:
-                    print("[main] noticia sin verificación web: se sube PRIVADA para que la revises")
+                    print(f"[main] noticia de {medios} solo medio y sin búsqueda web: se sube PRIVADA para revisarla")
+                elif art.get("categoria") == "noticia" and not g.get("verificado_web"):
+                    print(f"[main] noticia confirmada por {medios} medios distintos: se publica sola")
                 ultimo = None
                 for intento in range(3):
                     try:

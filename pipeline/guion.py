@@ -11,7 +11,7 @@ import random
 import re
 
 from . import db, ia
-from .config import ANTHROPIC_API_KEY, CANAL, CLAUDE_VERIFICAR, DATA, GEMINI_API_KEY
+from .config import ANTHROPIC_API_KEY, CANAL, CLAUDE_VERIFICAR, DATA, GEMINI_API_KEY, GEMINI_BUSQUEDA
 
 TIPOS = ("confirmed", "reported", "rumor", "opinion")
 
@@ -213,7 +213,7 @@ def _revisar(g, art, formato, extra):
     if art.get("estado") == "rumor":
         g["sello"] = "rumor"
     g["verificacion"] = "solo contra las fuentes del artículo"
-    if (ANTHROPIC_API_KEY or GEMINI_API_KEY) and CLAUDE_VERIFICAR:
+    if (ANTHROPIC_API_KEY or (GEMINI_API_KEY and GEMINI_BUSQUEDA)) and CLAUDE_VERIFICAR:
         try:
             ia.ULTIMA_BUSQUEDA.update(proveedor=None, consultas=[], dominios=[])
             resp = ia.generar_json(VERIFICADOR.format(canal=CANAL, titulo=art["titulo"], guion=_vista(g),
@@ -236,7 +236,8 @@ def _revisar(g, art, formato, extra):
         except Exception as e:  # noqa: BLE001
             print(f"[guion] verificación web no disponible ({e})")
     elif art.get("categoria") == "noticia":
-        print("[guion] AVISO: noticia sin verificación web (falta GEMINI_API_KEY): revísala antes de publicar")
+        print(f"[guion] noticia sin búsqueda web: se verifica contra {len(art.get('medios') or [])} medio(s) "
+              f"({', '.join(art.get('medios') or [])})")
     g.setdefault("sello", {"confirmed": "confirmed", "reported": "reported", "rumor": "rumor"}.get(
         art.get("estado"), "reported"))
     # Candado de sellos: sin verificación web, ninguna escena puede quedar "más segura" que la historia
