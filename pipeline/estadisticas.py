@@ -21,6 +21,10 @@ METRICAS = "views,estimatedMinutesWatched,averageViewDuration,averageViewPercent
 def actualizar():
     vids = [v for v in db.videos() if v.get("youtube_id")]
     est = db.leer(db.ESTADISTICAS, {"videos": {}, "historial_canal": []})
+    if not isinstance(est, dict):
+        est = {}
+    est.setdefault("videos", {})  # el archivo puede empezar vacío ({}) en un canal nuevo
+    est.setdefault("historial_canal", [])
     yt = youtube.servicio()
 
     canal = yt.channels().list(part="statistics", mine=True).execute()["items"][0]["statistics"]
