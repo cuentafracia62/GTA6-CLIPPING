@@ -1,0 +1,115 @@
+name: Shorts diarios (GTA 6)
+
+on:
+  schedule:
+    # Hora UTC. Nueva York = UTC-5 (UTC-4 en verano). 4 shorts al día, 100 % automáticos: cada uno se crea
+    # ~2.5 h antes y se sube PROGRAMADO para las 10:00, 13:00, 17:00 y 20:00 ET (público de habla inglesa).
+    # Cada horario tiene una ejecución de RESPALDO (1 h después) que solo crea video si la principal no llegó.
+    - cron: "33 12 * * *"   # -> short de las 10:00 ET
+    - cron: "33 15 * * *"   # -> short de las 13:00 ET
+    - cron: "33 19 * * *"   # -> short de las 17:00 ET
+    - cron: "33 22 * * *"   # -> short de las 20:00 ET
+    - cron: "33 13 * * *"   # respaldo
+    - cron: "33 16 * * *"   # respaldo
+    - cron: "33 20 * * *"   # respaldo
+    - cron: "33 23 * * *"   # respaldo
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Opcional: URLs de noticias separadas por coma, o un tema atemporal"
+        required: false
+      subir:
+        description: "¿Subir a YouTube?"
+        type: boolean
+        default: true
+      publicar_ya:
+        description: "Publicar apenas se suba (sin esperar los horarios)"
+        type: boolean
+        default: false
+      esperar_cuota:
+        description: "Esperar a que YouTube reinicie la cuota diaria (08:05 UTC = 3:05 ET)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos-del-canal   # nunca corren dos trabajos a la vez (evita conflictos y duplicados)
+  cancel-in-progress: false
+
+jobs:
+  short:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Esperar reinicio de cuota de YouTube
+        if: github.event.inputs.esperar_cuota == 'true'
+        timeout-minutes: 290
+        run: |
+          objetivo=$(date -u -d "08:05" +%s); ahora=$(date -u +%s)
+          if [ $objetivo -le $ahora ] && [ $((ahora - objetivo)) -gt 3600 ]; then objetivo=$(date -u -d "tomorrow 08:05" +%s); fi
+          if [ $objetivo -gt $ahora ]; then echo "Espero $(( (objetivo - ahora) / 60 )) min"; sleep $((objetivo - ahora)); fi
+
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar ffmpeg y dependencias
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+
+      - name: Crear y publicar el short (con un reintento)
+        timeout-minutes: 60
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
+          YT_PRIVACIDAD: ${{ github.event.inputs.publicar_ya == 'true' && 'public' || vars.YT_PRIVACIDAD || 'public' }}
+          YT_HORA_PUBLICACION: ${{ github.event.inputs.publicar_ya != 'true' && (vars.YT_HORA_PUBLICACION_SHORTS || '10:00,13:00,17:00,20:00') || '' }}
+          ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/New_York' }}
+          PROB_ATEMPORAL: ${{ vars.PROB_ATEMPORAL || '0.3' }}
+          MODO_REVISION: ${{ vars.MODO_REVISION || '0' }}
+          LIMITE_SHORTS_DIA: ${{ vars.LIMITE_SHORTS_DIA || '4' }}
+          CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Leonida Report' }}
+          TEMA: ${{ github.event.inputs.tema }}
+          SUBIR: ${{ github.event.inputs.subir }}
+        run: |
+          ARGS=(short)
+          if [ "${{ github.event_name }}" = "schedule" ]; then ARGS+=(--programado); fi
+          if [ -n "$TEMA" ]; then ARGS+=(--tema "$TEMA"); fi
+          if [ "$SUBIR" = "false" ]; then ARGS+=(--no-subir); fi
+          if ! python -u -m pipeline.main "${ARGS[@]}"; then
+            if [ -f out/SUBIDO ]; then echo "El video ya se subió; no reintento."; exit 1; fi
+            echo "Falló; reintento en 2 minutos…"; sleep 120
+            python -u -m pipeline.main "${ARGS[@]}"
+          fi
+
+      - name: Guardar video como artefacto (7 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: short-${{ github.run_number }}
+          path: |
+            out/*/short.mp4
+            out/*/meta.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Guardar registros y panel
+        if: always()
+        run: |
+          git config user.name "bot-leonida"
+          git config user.email "bot-leonida@users.noreply.github.com"
+          git add data docs PANEL.md
+          git commit -m "Short: registros $(date -u +%F_%H%M)" || exit 0
+          git pull --rebase -X theirs || true
+          git push

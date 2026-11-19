@@ -1,0 +1,96 @@
+name: Videos largos
+
+on:
+  schedule:
+    # 1 video largo TODOS los días, 100 % automático. Se crea a las 08:20 UTC (3:20 ET, justo después de que
+    # YouTube reinicia la cuota diaria), tarda 1-3 h y se sube PROGRAMADO para las 14:00 ET.
+    # Empieza temprano para terminar antes del primer short (12:33 UTC) y no bloquearlo.
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Opcional: URLs de noticias separadas por coma, o un tema atemporal"
+        required: false
+      subir:
+        description: "¿Subir a YouTube?"
+        type: boolean
+        default: true
+      prueba:
+        description: "Modo prueba (video corto, no se sube)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos-del-canal
+  cancel-in-progress: false
+
+jobs:
+  largo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar ffmpeg y dependencias
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+
+      - name: Crear y publicar el video largo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CLAUDE_MODELO: ${{ vars.CLAUDE_MODELO || 'claude-opus-5-5' }}
+          YT_PRIVACIDAD: ${{ vars.YT_PRIVACIDAD || 'public' }}
+          YT_HORA_PUBLICACION: ${{ vars.YT_HORA_PUBLICACION_LARGOS || '14:00' }}
+          ZONA_HORARIA: ${{ vars.ZONA_HORARIA || 'America/New_York' }}
+          PROB_ATEMPORAL: ${{ vars.PROB_ATEMPORAL || '0.3' }}
+          MODO_REVISION: ${{ vars.MODO_REVISION || '0' }}
+          CANAL_NOMBRE: ${{ vars.CANAL_NOMBRE || 'Leonida Report' }}
+          TEMA: ${{ github.event.inputs.tema }}
+          SUBIR: ${{ github.event.inputs.subir }}
+          PRUEBA: ${{ github.event.inputs.prueba }}
+        run: |
+          ARGS=(largo)
+          if [ -n "$TEMA" ]; then ARGS+=(--tema "$TEMA"); fi
+          if [ "$SUBIR" = "false" ]; then ARGS+=(--no-subir); fi
+          if [ "$PRUEBA" = "true" ]; then ARGS+=(--prueba); fi
+          if ! python -u -m pipeline.main "${ARGS[@]}"; then
+            if [ -f out/SUBIDO ]; then echo "El video ya se subió; no reintento."; exit 1; fi
+            echo "Falló; reintento en 5 minutos…"; sleep 300
+            python -u -m pipeline.main "${ARGS[@]}"
+          fi
+
+      - name: Guardar video como artefacto (7 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: largo-${{ github.run_number }}
+          path: |
+            out/*/video.mp4
+            out/*/miniatura.jpg
+            out/*/meta.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Guardar registros y panel
+        if: always()
+        run: |
+          git config user.name "bot-leonida"
+          git config user.email "bot-leonida@users.noreply.github.com"
+          git add data docs PANEL.md
+          git commit -m "Largo: registros $(date -u +%F_%H%M)" || exit 0
+          git pull --rebase -X theirs || true
+          git push

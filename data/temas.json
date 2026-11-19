@@ -1,0 +1,20 @@
+[
+  {"tema": "How long fans waited for GTA 6: the full timeline", "wiki": ["Grand Theft Auto VI"], "categoria": "historia_saga", "enfoque": "timeline of announcements, trailers and delays; only dates in the source"},
+  {"tema": "Every GTA 6 delay, explained", "wiki": ["Grand Theft Auto VI"], "categoria": "historia_saga", "enfoque": "what was announced each time and what Rockstar said"},
+  {"tema": "GTA 6's record-breaking trailers", "wiki": ["Grand Theft Auto VI"], "categoria": "marketing", "enfoque": "view records and reception of the trailers"},
+  {"tema": "The 2022 GTA 6 leak and what happened next", "wiki": ["Grand Theft Auto VI", "2022 Rockstar Games data breach"], "categoria": "historia_saga", "enfoque": "the event and its consequences only; never describe leaked content", "formatos": ["largo"]},
+  {"tema": "Vice City through the years: 1986 to Leonida", "wiki": ["Grand Theft Auto: Vice City", "Grand Theft Auto VI"], "categoria": "historia_saga"},
+  {"tema": "Why Vice City became a fan favorite", "wiki": ["Grand Theft Auto: Vice City"], "categoria": "historia_saga"},
+  {"tema": "GTA V's launch records, and what GTA 6 has to beat", "wiki": ["Grand Theft Auto V"], "categoria": "industria"},
+  {"tema": "How GTA Online changed Rockstar forever", "wiki": ["Grand Theft Auto Online"], "categoria": "industria"},
+  {"tema": "Rockstar Games: from DMA Design to GTA 6", "wiki": ["Rockstar Games", "Rockstar North"], "categoria": "industria", "formatos": ["largo"]},
+  {"tema": "The original Grand Theft Auto (1997): where it all began", "wiki": ["Grand Theft Auto (video game)"], "categoria": "historia_saga"},
+  {"tema": "GTA III and the jump to 3D", "wiki": ["Grand Theft Auto III"], "categoria": "historia_saga"},
+  {"tema": "San Andreas: why it still matters", "wiki": ["Grand Theft Auto: San Andreas"], "categoria": "historia_saga"},
+  {"tema": "GTA IV's Liberty City and Rockstar's realism shift", "wiki": ["Grand Theft Auto IV"], "categoria": "historia_saga"},
+  {"tema": "Red Dead Redemption 2's lessons for GTA 6", "wiki": ["Red Dead Redemption 2"], "categoria": "industria", "enfoque": "what RDR2 did and how it was received; any link to GTA 6 must be labelled as opinion"},
+  {"tema": "Take-Two and the business of GTA", "wiki": ["Take-Two Interactive"], "categoria": "industria"},
+  {"tema": "The real Florida behind Leonida", "wiki": ["Grand Theft Auto VI", "Miami"], "categoria": "mundo", "enfoque": "only parallels stated in the sources; otherwise label as opinion"},
+  {"tema": "GTA's most controversial moments in history", "wiki": ["Grand Theft Auto", "Hot Coffee mod"], "categoria": "polemica", "enfoque": "context and outcomes, no graphic description"},
+  {"tema": "The voice and music of GTA: radio stations explained", "wiki": ["Grand Theft Auto"], "categoria": "historia_saga"}
+]
