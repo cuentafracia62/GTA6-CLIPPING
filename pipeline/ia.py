@@ -1,7 +1,8 @@
 """Capa única de IA de texto. Usa el primer proveedor disponible:
 
   1. Claude API (si hay ANTHROPIC_API_KEY): mejor calidad + verificación con búsqueda web.
-  2. Gemini (si hay GEMINI_API_KEY): plan gratis con límites diarios.
+  2. Gemini (si hay GEMINI_API_KEY): plan gratis con límites diarios. También verifica noticias con
+     búsqueda de Google (grounding), así el canal no necesita pagar la API de Claude.
   3. Pollinations (sin clave): respaldo gratis, 1 respuesta cada 45 s, calidad menor.
 
 Cada llamada devuelve (dict, uso) y acumula el costo en COSTOS para guardarlo con el video.
@@ -85,7 +86,14 @@ def _claude(prompt, max_tokens, buscar_web=False):
               (getattr(u, "cache_creation_input_tokens", 0) or 0)
     _anotar("claude", msg.model or CLAUDE_MODELO, entrada, u.output_tokens or 0, busquedas)
     texto = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+    if buscar_web:
+        ULTIMA_BUSQUEDA.update(proveedor="claude", consultas=["(búsqueda web de Claude)"] if busquedas else [],
+                               dominios=[])
     return texto
+
+
+# Qué búsqueda web hizo la última llamada con buscar_web=True (para saber si la verificación fue real)
+ULTIMA_BUSQUEDA = {"proveedor": None, "consultas": [], "dominios": []}
 
 
 # ---------- Gemini ----------
@@ -106,7 +114,7 @@ def _gemini(prompt, max_tokens, buscar_web=False):
         modelos = [m for m in _modelos_gemini(cliente) if m not in _GEMINI_AGOTADOS]
         if not modelos:
             break
-        texto, ultimo = _vuelta_gemini(cliente, types, modelos, prompt, max_tokens)
+        texto, ultimo = _vuelta_gemini(cliente, types, modelos, prompt, max_tokens, buscar_web)
         if texto is not None:
             return texto
     raise RuntimeError(ultimo)
@@ -115,20 +123,37 @@ def _gemini(prompt, max_tokens, buscar_web=False):
 _GEMINI_AGOTADOS = set()  # modelos que respondieron 429 (cuota del día agotada) en esta ejecución
 
 
-def _vuelta_gemini(cliente, types, modelos, prompt, max_tokens):
+def _vuelta_gemini(cliente, types, modelos, prompt, max_tokens, buscar_web=False):
     ultimo = None
     for modelo in modelos:
         try:
             extra = {}
             if modelo.startswith("gemini-3"):  # piensa menos: mucho más rápido y suficiente para guiones
                 extra["thinking_config"] = types.ThinkingConfig(thinking_level="low")
+            if buscar_web:
+                # Verificación con la búsqueda de Google (gratis dentro de los límites diarios de Gemini).
+                # Con herramientas no se fuerza la salida JSON: extraer_json() la saca del texto.
+                extra.update(tools=[types.Tool(google_search=types.GoogleSearch())], temperature=0.2)
+            else:
+                extra.update(response_mime_type="application/json", temperature=0.9)
             t0 = time.time()
             r = cliente.models.generate_content(
                 model=modelo, contents=prompt,
-                config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.9,
-                                                   max_output_tokens=max_tokens, **extra))
+                config=types.GenerateContentConfig(max_output_tokens=max_tokens, **extra))
             if not r.text:
                 raise RuntimeError("respuesta vacía")
+            if buscar_web:
+                meta = getattr(r.candidates[0], "grounding_metadata", None) if r.candidates else None
+                consultas = list(getattr(meta, "web_search_queries", None) or [])
+                dominios = []
+                for ch in (getattr(meta, "grounding_chunks", None) or []):
+                    titulo = getattr(getattr(ch, "web", None), "title", None)
+                    if titulo and titulo not in dominios:
+                        dominios.append(titulo)
+                if not consultas:
+                    raise RuntimeError("Gemini no hizo ninguna búsqueda en Google: la verificación no vale")
+                ULTIMA_BUSQUEDA.update(proveedor="gemini", consultas=consultas, dominios=dominios[:8])
+                print(f"[ia] Gemini buscó en Google: {'; '.join(consultas[:5])}")
             print(f"[ia] Gemini {modelo} respondió en {time.time() - t0:.0f}s")
             _anotar("gemini", modelo)
             return r.text, None
@@ -207,12 +232,12 @@ def proveedores():
     return lista
 
 
-def generar_json(prompt, validar=None, max_tokens=16000, intentos=2, buscar_web=False, solo_claude=False):
+def generar_json(prompt, validar=None, max_tokens=16000, intentos=2, buscar_web=False, solo_buscador=False):
     """Pide JSON a la IA. 'validar' recibe el dict y debe devolverlo (o lanzar error para reintentar)."""
     errores = []
     lista = proveedores()
-    if solo_claude:
-        lista = [p for p in lista if p[0] == "claude"]
+    if solo_buscador:  # solo los proveedores que de verdad buscan en internet
+        lista = [p for p in lista if p[0] in ("claude", "gemini")]
     for intento in range(intentos):
         for nombre, fn in lista:
             try:

@@ -11,7 +11,7 @@ import random
 import re
 
 from . import db, ia
-from .config import ANTHROPIC_API_KEY, CANAL, CLAUDE_VERIFICAR, DATA
+from .config import ANTHROPIC_API_KEY, CANAL, CLAUDE_VERIFICAR, DATA, GEMINI_API_KEY
 
 TIPOS = ("confirmed", "reported", "rumor", "opinion")
 
@@ -213,23 +213,35 @@ def _revisar(g, art, formato, extra):
     if art.get("estado") == "rumor":
         g["sello"] = "rumor"
     g["verificacion"] = "solo contra las fuentes del artículo"
-    if ANTHROPIC_API_KEY and CLAUDE_VERIFICAR:
+    if (ANTHROPIC_API_KEY or GEMINI_API_KEY) and CLAUDE_VERIFICAR:
         try:
+            ia.ULTIMA_BUSQUEDA.update(proveedor=None, consultas=[], dominios=[])
             resp = ia.generar_json(VERIFICADOR.format(canal=CANAL, titulo=art["titulo"], guion=_vista(g),
                                                       hoy=dt.date.today().isoformat()),
-                                   intentos=1, buscar_web=True, solo_claude=True)
+                                   intentos=2, buscar_web=True, solo_buscador=True)
+            busqueda = dict(ia.ULTIMA_BUSQUEDA)
+            if not busqueda.get("consultas"):
+                raise RuntimeError("no se hizo ninguna búsqueda web")
             g = _aplicar(g, resp, "verificador")
-            g["fuentes_extra"] = [u for u in (resp.get("fuentes") or []) if isinstance(u, str)][:8]
-            g["verificacion"] = resp.get("nota") or "verificado con búsqueda web"
+            if busqueda["proveedor"] == "claude":
+                # Claude devuelve las URLs reales que leyó
+                g["fuentes_extra"] = [u for u in (resp.get("fuentes") or [])
+                                      if isinstance(u, str) and u.startswith("http")][:8]
+            # Con Gemini no se copian URLs a la descripción (las que escribe pueden no existir); se anotan los sitios
+            g["verificado_web"] = True
+            nota = resp.get("nota") or "verificado con búsqueda web"
+            if busqueda.get("dominios"):
+                nota += f" (sitios consultados: {', '.join(busqueda['dominios'])})"
+            g["verificacion"] = f"[{busqueda['proveedor']}] {nota}"
         except Exception as e:  # noqa: BLE001
             print(f"[guion] verificación web no disponible ({e})")
     elif art.get("categoria") == "noticia":
-        print("[guion] AVISO: noticia sin verificación web (falta ANTHROPIC_API_KEY): revísala antes de publicar")
+        print("[guion] AVISO: noticia sin verificación web (falta GEMINI_API_KEY): revísala antes de publicar")
     g.setdefault("sello", {"confirmed": "confirmed", "reported": "reported", "rumor": "rumor"}.get(
         art.get("estado"), "reported"))
     # Candado de sellos: sin verificación web, ninguna escena puede quedar "más segura" que la historia
     # (en una historia REPORTED no hay escenas CONFIRMED; en una RUMOR, todo lo que no es opinión es RUMOR).
-    if not g.get("fuentes_extra"):
+    if not g.get("verificado_web"):
         nivel = {"rumor": 0, "reported": 1, "confirmed": 2}
         tope = g["sello"]
         for e in g["escenas"]:

@@ -232,7 +232,7 @@ def crear_video(formato, tema=None, subir=True, prueba=False):
             else:
                 # Candado del modo automático: una noticia sin verificación web no se publica sola
                 revision = bool(not MODO_REVISION and NOTICIA_SIN_VERIFICAR_PRIVADA
-                                and art.get("categoria") == "noticia" and not g.get("fuentes_extra"))
+                                and art.get("categoria") == "noticia" and not g.get("verificado_web"))
                 if revision:
                     print("[main] noticia sin verificación web: se sube PRIVADA para que la revises")
                 ultimo = None
