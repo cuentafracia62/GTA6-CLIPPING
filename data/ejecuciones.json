@@ -20,5 +20,16 @@
     "estado_video": "en_revision",
     "costo_usd": 0.0,
     "fin": "2026-11-19T22:10:33+00:00"
+  },
+  {
+    "id": "20261119-221238-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T22:12:38+00:00",
+    "estado": "ok",
+    "tema": "GTA 6 smashes all-time livestream viewership records across platforms like Twitch and Kick within hours of launch",
+    "video": "2026-11-19-short-gta-6-smashes-all-time-livestream-viewership-recor",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T22:20:57+00:00"
   }
 ]

@@ -55,5 +55,60 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/ejF39BcES2Y"
+  },
+  {
+    "id": "2026-11-19-short-gta-6-smashes-all-time-livestream-viewership-recor",
+    "fecha": "2026-11-19T22:20:54+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "GTA 6 smashes all-time livestream viewership records across platforms like Twitch and Kick within hours of launch",
+    "tema_clave": "gta-6-livestream-records",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Smashes All-Time Livestream Records #Twitch #Kick #Shorts",
+    "estructura": "three_things",
+    "estilo": "neon_atardecer",
+    "duracion": 45.0,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.ign.com/articles/gta-6-is-the-most-popular-game-ever-across-twitch-and-kick-and-its-only-been-out-for-a-day",
+      "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "fXiBwkDEVRM",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T01:00:00Z",
+    "url": "https://youtu.be/fXiBwkDEVRM"
   }
 ]
