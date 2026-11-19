@@ -14,7 +14,7 @@ Diferencias con el sistema de misterios:
 | Imágenes de terror | Ilustraciones de estilo neón y synthwave, **marcadas como ilustración, nunca como capturas del juego**, además de clips de archivo de Florida y Miami |
 | Público hispanohablante | **Solo público de habla inglesa:** guion, voz, título, descripción e idioma del video en inglés. Si un guion sale en otro idioma, no se crea el video |
 | 5 shorts + 1 largo al día | **100 % automático (desde 2026-11-19): 4 shorts y 1 video largo TODOS los días.** Se suben programados y se publican solos: shorts a las 10:00, 13:00, 17:00 y 20:00 ET; largo a las 14:00 ET |
-| — | **Candado de noticias:** si una noticia no pudo verificarse con búsqueda web (falta `ANTHROPIC_API_KEY` o falló el verificador), ese video se sube PRIVADO para que lo revises. Los temas atemporales sí se publican solos |
+| — | **Candado de noticias (gratis):** una noticia se publica sola si sus fuentes vienen de **2 o más medios distintos** (variable `MIN_MEDIOS_AUTO`). Si solo la publicó 1 medio, el video se sube PRIVADO para que lo revises. Los temas atemporales se publican solos. (Con `ANTHROPIC_API_KEY`, que es de pago, además se verifica con búsqueda web) |
 
 **Lo que el sistema NO hace (a propósito):**
 - No descarga tráileres ni clips de streamers.
@@ -69,7 +69,7 @@ Diferencias con el sistema de misterios:
 
 ## Paso 4. Claves propias de IA y de video (Secrets del repositorio nuevo)
 Crea **claves nuevas solo para este canal**. Así cada canal tiene su propio límite de gasto y sus propias estadísticas de uso:
-- `ANTHROPIC_API_KEY`: **muy recomendada.** Créala en console.anthropic.com con un nombre como "leonida-report" y ponle un **límite de gasto mensual** (por ejemplo, 15 USD). Con ella, el verificador revisa cada noticia con búsqueda web. Sin ella, las noticias no se verifican en la web y el sistema lo avisa.
+- `ANTHROPIC_API_KEY`: **opcional, de pago** (no se usa en este canal desde 2026-11-19). Sin ella, el guion lo escribe Gemini (gratis) y las noticias se verifican contando medios distintos. La búsqueda de Google dentro de Gemini tampoco es gratis (`GEMINI_BUSQUEDA=1` solo si pagas Gemini).
 - `GEMINI_API_KEY`: respaldo. Créala en aistudio.google.com con cuentafacio62@gmail.com.
 - `PIXABAY_API_KEY`: clips de archivo. Créate una cuenta gratis en pixabay.com con cuentafacio62@gmail.com y copia la clave desde pixabay.com/api/docs.
 
