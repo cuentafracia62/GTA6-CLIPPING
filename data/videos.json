@@ -110,5 +110,57 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T01:00:00Z",
     "url": "https://youtu.be/fXiBwkDEVRM"
+  },
+  {
+    "id": "2026-11-19-short-rockstar-confirms-gta-6-removed-paid-sex-and-prost",
+    "fecha": "2026-11-19T23:08:31+00:00",
+    "formato": "short",
+    "estado": "creado",
+    "tema": "Rockstar confirms GTA 6 removed paid sex and prostitution options to focus on Jason and Lucia's central romantic storyline",
+    "tema_clave": "gta6-sex-prostitution-removal-romance-focus",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Cuts a 25-Year Feature for Story #Romance #Story #Shorts",
+    "estructura": "before_after",
+    "estilo": "neon_atardecer",
+    "duracion": 54.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.gamesradar.com/games/grand-theft-auto/rockstar-says-gta-6-doesnt-let-you-hire-prostitutes-for-the-first-time-in-25-years-as-it-doesnt-support-the-spirit-of-the-story-we-wanted-to-tell/",
+      "https://kotaku.com/grand-theft-auto-6-sex-scenes-romance-relationship-jason-lucia-unlock-2000758517",
+      "https://www.dexerto.com/gta/gta-6-drops-longtime-hookup-options-and-prostitution-to-focus-on-jason-and-lucias-romance-3429539/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
