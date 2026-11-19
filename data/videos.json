@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": "2026-11-19-short-rockstar-officially-reveals-the-full-gta-6-cast-co",
+    "fecha": "2026-11-19T22:10:31+00:00",
+    "formato": "short",
+    "estado": "en_revision",
+    "tema": "Rockstar officially reveals the full GTA 6 cast, confirming Dylan Rourke as Jason Duval and Manni L. Perez as Lucia Caminos",
+    "tema_clave": "gta-6-full-cast-revealed",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "confirmed",
+    "titulo_yt": "Rockstar officially confirms full GTA 6 cast #DylanRourke #ManniLPerez #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "noche_miami",
+    "duracion": 42.3,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor",
+      "https://www.eurogamer.net/gta-6-lucia-actress-manni-l-perez-confirmed",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-characters-cast/",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jason-actor-finally-speaks-out-as-rockstar-posts-the-full-cast-the-hardest-working-and-most-skilled-artisans-gaming-has-to-offer/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "ejF39BcES2Y",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/ejF39BcES2Y"
+  }
+]

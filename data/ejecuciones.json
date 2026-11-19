@@ -9,5 +9,16 @@
     "estado_video": "creado",
     "costo_usd": 0.0,
     "fin": "2026-11-19T21:39:14+00:00"
+  },
+  {
+    "id": "20261119-215603-short",
+    "tipo": "short",
+    "inicio": "2026-11-19T21:56:03+00:00",
+    "estado": "ok",
+    "tema": "Rockstar officially reveals the full GTA 6 cast, confirming Dylan Rourke as Jason Duval and Manni L. Perez as Lucia Caminos",
+    "video": "2026-11-19-short-rockstar-officially-reveals-the-full-gta-6-cast-co",
+    "estado_video": "en_revision",
+    "costo_usd": 0.0,
+    "fin": "2026-11-19T22:10:33+00:00"
   }
 ]
