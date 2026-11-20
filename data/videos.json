@@ -265,5 +265,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T15:00:00Z",
     "url": "https://youtu.be/j83uPC3PQGM"
+  },
+  {
+    "id": "2026-11-20-short-gta-iv-s-liberty-city-and-rockstar-s-realism-shift",
+    "fecha": "2026-11-20T16:41:21+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "GTA IV's Liberty City and Rockstar's realism shift",
+    "tema_clave": "GTA IV's Liberty City and Rockstar's realism shift",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts",
+    "estructura": "question",
+    "estilo": "grafico_limpio",
+    "duracion": 58.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "dYRVvPTD8So",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T18:00:00Z",
+    "url": "https://youtu.be/dYRVvPTD8So"
   }
 ]
