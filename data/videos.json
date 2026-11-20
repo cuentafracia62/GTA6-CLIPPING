@@ -162,5 +162,52 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-20-largo-rockstar-games-from-dma-design-to-gta-6",
+    "fecha": "2026-11-20T10:12:52+00:00",
+    "formato": "largo",
+    "estado": "programado",
+    "tema": "Rockstar Games: from DMA Design to GTA 6",
+    "tema_clave": "Rockstar Games: from DMA Design to GTA 6",
+    "categoria": "industria",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Developer History: From DMA Design to Rockstar Games",
+    "estructura": null,
+    "estilo": "grafico_limpio",
+    "duracion": 566.5,
+    "escenas": 43,
+    "clips_reales": 25,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Rockstar_Games",
+      "https://en.wikipedia.org/wiki/Rockstar_North"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "KXjeoCUT4BU",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T19:00:00Z",
+    "url": "https://youtu.be/KXjeoCUT4BU"
   }
 ]
