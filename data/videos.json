@@ -369,5 +369,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T22:00:00Z",
     "url": "https://youtu.be/0Rc7uKSGmBU"
+  },
+  {
+    "id": "2026-11-20-short-red-dead-redemption-2-s-lessons-for-gta-6",
+    "fecha": "2026-11-20T23:29:39+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Red Dead Redemption 2's lessons for GTA 6",
+    "tema_clave": "Red Dead Redemption 2's lessons for GTA 6",
+    "categoria": "industria",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts",
+    "estructura": "fact_check",
+    "estilo": "noche_miami",
+    "duracion": 53.1,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "mg6RZF3tc1w",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T01:00:00Z",
+    "url": "https://youtu.be/mg6RZF3tc1w"
   }
 ]

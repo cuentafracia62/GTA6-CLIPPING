@@ -140,5 +140,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T20:29:59+00:00"
+  },
+  {
+    "id": "20261120-232318-short",
+    "tipo": "short",
+    "inicio": "2026-11-20T23:23:18+00:00",
+    "estado": "ok",
+    "tema": "Red Dead Redemption 2's lessons for GTA 6",
+    "video": "2026-11-20-short-red-dead-redemption-2-s-lessons-for-gta-6",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T23:29:42+00:00"
   }
 ]

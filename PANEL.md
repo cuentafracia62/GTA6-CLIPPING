@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-20 20:29 UTC*
+*Actualizado: 2026-11-20 23:29 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 1 | 4 | 2 | $0.00 |
+| 0 | 0 | 8 | 1 | 5 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | programado | — |
 | 2026-11-20 | short | [GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts](https://youtu.be/0Rc7uKSGmBU) | programado | — |
 | 2026-11-20 | short | [GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts](https://youtu.be/dYRVvPTD8So) | programado | — |
 | 2026-11-20 | short | [GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts](https://youtu.be/j83uPC3PQGM) | programado | — |
