@@ -209,5 +209,61 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T19:00:00Z",
     "url": "https://youtu.be/KXjeoCUT4BU"
+  },
+  {
+    "id": "2026-11-20-short-over-two-million-xbox-players-reportedly-used-the-",
+    "fecha": "2026-11-20T14:16:24+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Over two million Xbox players reportedly used the 'New Zealand trick' to access GTA 6 early by switching their console location.",
+    "tema_clave": "gta6-new-zealand-trick",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "postal_retro",
+    "duracion": 67.5,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early",
+      "https://www.polygon.com/gta-6-grand-theft-auto-new-zealand-trick-stats/",
+      "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "j83uPC3PQGM",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T15:00:00Z",
+    "url": "https://youtu.be/j83uPC3PQGM"
   }
 ]

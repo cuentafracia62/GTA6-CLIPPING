@@ -93,5 +93,23 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T10:12:59+00:00"
+  },
+  {
+    "id": "20261120-135618-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-20T13:56:18+00:00",
+    "estado": "ok",
+    "fin": "2026-11-20T13:56:18+00:00"
+  },
+  {
+    "id": "20261120-135618-short",
+    "tipo": "short",
+    "inicio": "2026-11-20T13:56:18+00:00",
+    "estado": "ok",
+    "tema": "Over two million Xbox players reportedly used the 'New Zealand trick' to access GTA 6 early by switching their console location.",
+    "video": "2026-11-20-short-over-two-million-xbox-players-reportedly-used-the-",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T14:16:26+00:00"
   }
 ]
