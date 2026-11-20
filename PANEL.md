@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-20 16:41 UTC*
+*Actualizado: 2026-11-20 20:29 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 0 | 6 | 1 | 3 | 2 | $0.00 |
+| 0 | 0 | 7 | 1 | 4 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-20 | short | [GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts](https://youtu.be/0Rc7uKSGmBU) | programado | — |
 | 2026-11-20 | short | [GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts](https://youtu.be/dYRVvPTD8So) | programado | — |
 | 2026-11-20 | short | [GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts](https://youtu.be/j83uPC3PQGM) | programado | — |
 | 2026-11-20 | largo | [GTA 6 Developer History: From DMA Design to Rockstar Games](https://youtu.be/KXjeoCUT4BU) | programado | — |

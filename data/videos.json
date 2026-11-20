@@ -311,5 +311,63 @@
     "privacidad": "private",
     "publicar_en": "2026-11-20T18:00:00Z",
     "url": "https://youtu.be/dYRVvPTD8So"
+  },
+  {
+    "id": "2026-11-20-short-gta-6-sets-historic-launch-records-selling-32-5-mi",
+    "fecha": "2026-11-20T20:29:57+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "GTA 6 sets historic launch records selling 32.5 million copies in pre-orders and generating $3.79 billion on its first day",
+    "tema_clave": "gta-6-launch-day-sales-records",
+    "categoria": "noticia",
+    "interes_fuentes": 5,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts",
+    "estructura": "before_after",
+    "estilo": "neon_atardecer",
+    "duracion": 49.1,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://kotaku.com/gta-6-sold-32-5-million-copies-in-pre-release-as-take-two-crowns-it-the-biggest-entertainment-launch-in-history-2000758965",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sold-32-5-million-copies-before-it-was-even-released-for-comparison-elden-ring-sold-30-million-in-3-years/",
+      "https://www.gamespot.com/articles/gta-6-sets-even-more-records/",
+      "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
+      "https://www.videogameschronicle.com/news/gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertainment-launch-in-history/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "0Rc7uKSGmBU",
+    "privacidad": "private",
+    "publicar_en": "2026-11-20T22:00:00Z",
+    "url": "https://youtu.be/0Rc7uKSGmBU"
   }
 ]

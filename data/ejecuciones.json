@@ -122,5 +122,23 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T16:41:24+00:00"
+  },
+  {
+    "id": "20261120-202044-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-20T20:20:44+00:00",
+    "estado": "ok",
+    "fin": "2026-11-20T20:20:44+00:00"
+  },
+  {
+    "id": "20261120-202044-short",
+    "tipo": "short",
+    "inicio": "2026-11-20T20:20:44+00:00",
+    "estado": "ok",
+    "tema": "GTA 6 sets historic launch records selling 32.5 million copies in pre-orders and generating $3.79 billion on its first day",
+    "video": "2026-11-20-short-gta-6-sets-historic-launch-records-selling-32-5-mi",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-20T20:29:59+00:00"
   }
 ]
