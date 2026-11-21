@@ -527,5 +527,60 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T15:00:00Z",
     "url": "https://youtu.be/gNM88eUGZwo"
+  },
+  {
+    "id": "2026-11-21-short-grand-theft-auto-6-restricts-cheat-codes-until-pla",
+    "fecha": "2026-11-21T16:33:49+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Grand Theft Auto 6 restricts cheat codes until players fully complete the main story mode, breaking long-standing series tradition.",
+    "tema_clave": "gta-6-cheats-locked-until-story-complete",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts",
+    "estructura": "before_after",
+    "estilo": "noche_miami",
+    "duracion": 58.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
+      "https://www.pcgamer.com/games/grand-theft-auto/im-counting-the-minutes-until-the-pc-version-fixes-the-weirdly-restrictive-cheats-in-gta-6/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "QQvxGEd0T-s",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T18:00:00Z",
+    "url": "https://youtu.be/QQvxGEd0T-s"
   }
 ]

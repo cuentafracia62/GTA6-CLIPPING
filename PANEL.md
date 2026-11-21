@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-21 13:49 UTC*
+*Actualizado: 2026-11-21 16:33 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 0 | 10 | 7 | 2 | 2 | $0.00 |
+| 0 | 0 | 11 | 7 | 3 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-21 | short | [GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts](https://youtu.be/QQvxGEd0T-s) | programado | — |
 | 2026-11-21 | short | [Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts](https://youtu.be/gNM88eUGZwo) | programado | — |
 | 2026-11-21 | largo | [GTA 6 First-Person Glitch Explained: How It Works and What It Means](https://youtu.be/G6GMX_3HJOI) | programado | — |
 | 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | publicado | 33 |
