@@ -471,5 +471,61 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T19:00:00Z",
     "url": "https://youtu.be/G6GMX_3HJOI"
+  },
+  {
+    "id": "2026-11-21-short-rockstar-games-developers-express-fears-of-post-la",
+    "fecha": "2026-11-21T13:49:48+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Rockstar Games developers express fears of post-launch layoffs despite Grand Theft Auto 6's historic commercial success",
+    "tema_clave": "gta6-rockstar-layoff-fears",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "reported",
+    "titulo_yt": "Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts",
+    "estructura": "fact_check",
+    "estilo": "neon_atardecer",
+    "duracion": 48.1,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-6-rockstar-developers-layoffs-worries",
+      "https://www.dexerto.com/gta/gta-6-devs-worried-about-layoffs-despite-making-biggest-game-of-all-time-3429760/",
+      "https://www.pcgamer.com/games/grand-theft-auto/expedition-33-lead-writer-says-grand-theft-auto-6-layoff-concerns-show-that-people-creating-the-value-do-not-receive-a-proportionate-amount-of-that-value/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "gNM88eUGZwo",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T15:00:00Z",
+    "url": "https://youtu.be/gNM88eUGZwo"
   }
 ]

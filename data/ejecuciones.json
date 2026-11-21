@@ -169,5 +169,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-21T09:57:13+00:00"
+  },
+  {
+    "id": "20261121-133050-short",
+    "tipo": "short",
+    "inicio": "2026-11-21T13:30:50+00:00",
+    "estado": "ok",
+    "tema": "Rockstar Games developers express fears of post-launch layoffs despite Grand Theft Auto 6's historic commercial success",
+    "video": "2026-11-21-short-rockstar-games-developers-express-fears-of-post-la",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T13:49:51+00:00"
   }
 ]

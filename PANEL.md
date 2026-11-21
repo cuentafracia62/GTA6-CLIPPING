@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-21 09:57 UTC*
+*Actualizado: 2026-11-21 13:49 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 0 | 9 | 7 | 1 | 2 | $0.00 |
+| 0 | 0 | 10 | 7 | 2 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-21 | short | [Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts](https://youtu.be/gNM88eUGZwo) | programado | — |
 | 2026-11-21 | largo | [GTA 6 First-Person Glitch Explained: How It Works and What It Means](https://youtu.be/G6GMX_3HJOI) | programado | — |
 | 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | publicado | 33 |
 | 2026-11-20 | short | [GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts](https://youtu.be/0Rc7uKSGmBU) | publicado | 1 |
