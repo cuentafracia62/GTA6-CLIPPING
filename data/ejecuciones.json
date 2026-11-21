@@ -151,5 +151,12 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-20T23:29:42+00:00"
+  },
+  {
+    "id": "20261121-070532-estadisticas",
+    "tipo": "estadisticas",
+    "inicio": "2026-11-21T07:05:32+00:00",
+    "estado": "ok",
+    "fin": "2026-11-21T07:05:32+00:00"
   }
 ]

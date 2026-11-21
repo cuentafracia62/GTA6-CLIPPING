@@ -1,23 +1,23 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-20 23:29 UTC*
+*Actualizado: 2026-11-21 07:05 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 0 | 8 | 1 | 5 | 2 | $0.00 |
+| 0 | 0 | 8 | 7 | 0 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
-| 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | programado | — |
-| 2026-11-20 | short | [GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts](https://youtu.be/0Rc7uKSGmBU) | programado | — |
-| 2026-11-20 | short | [GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts](https://youtu.be/dYRVvPTD8So) | programado | — |
-| 2026-11-20 | short | [GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts](https://youtu.be/j83uPC3PQGM) | programado | — |
-| 2026-11-20 | largo | [GTA 6 Developer History: From DMA Design to Rockstar Games](https://youtu.be/KXjeoCUT4BU) | programado | — |
+| 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | publicado | 33 |
+| 2026-11-20 | short | [GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts](https://youtu.be/0Rc7uKSGmBU) | publicado | 1 |
+| 2026-11-20 | short | [GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts](https://youtu.be/dYRVvPTD8So) | publicado | 42 |
+| 2026-11-20 | short | [GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts](https://youtu.be/j83uPC3PQGM) | publicado | 17 |
+| 2026-11-20 | largo | [GTA 6 Developer History: From DMA Design to Rockstar Games](https://youtu.be/KXjeoCUT4BU) | publicado | 0 |
 | 2026-11-19 | short | GTA 6 Cuts a 25-Year Feature for Story #Romance #Story #Shorts | creado | — |
-| 2026-11-19 | short | [GTA 6 Smashes All-Time Livestream Records #Twitch #Kick #Shorts](https://youtu.be/fXiBwkDEVRM) | publicado | 8 |
-| 2026-11-19 | short | [Rockstar officially confirms full GTA 6 cast #DylanRourke #ManniLPerez #Shorts](https://youtu.be/ejF39BcES2Y) | en_revision | 4 |
+| 2026-11-19 | short | [GTA 6 Smashes All-Time Livestream Records #Twitch #Kick #Shorts](https://youtu.be/fXiBwkDEVRM) | publicado | 35 |
+| 2026-11-19 | short | [Rockstar officially confirms full GTA 6 cast #DylanRourke #ManniLPerez #Shorts](https://youtu.be/ejF39BcES2Y) | publicado | 12 |
 
 ## Errores recientes
 
