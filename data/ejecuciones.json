@@ -158,5 +158,16 @@
     "inicio": "2026-11-21T07:05:32+00:00",
     "estado": "ok",
     "fin": "2026-11-21T07:05:32+00:00"
+  },
+  {
+    "id": "20261121-090654-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-21T09:06:54+00:00",
+    "estado": "ok",
+    "tema": "A glitch allows GTA 6 players to play in first-person mode, which Rockstar skipped for the launch release.",
+    "video": "2026-11-21-largo-a-glitch-allows-gta-6-players-to-play-in-first-per",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T09:57:13+00:00"
   }
 ]

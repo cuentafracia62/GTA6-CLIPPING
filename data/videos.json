@@ -415,5 +415,61 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T01:00:00Z",
     "url": "https://youtu.be/mg6RZF3tc1w"
+  },
+  {
+    "id": "2026-11-21-largo-a-glitch-allows-gta-6-players-to-play-in-first-per",
+    "fecha": "2026-11-21T09:56:51+00:00",
+    "formato": "largo",
+    "estado": "programado",
+    "tema": "A glitch allows GTA 6 players to play in first-person mode, which Rockstar skipped for the launch release.",
+    "tema_clave": "gta6-first-person-glitch",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 First-Person Glitch Explained: How It Works and What It Means",
+    "estructura": null,
+    "estilo": "noche_miami",
+    "duracion": 485.3,
+    "escenas": 44,
+    "clips_reales": 26,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-glitch-adds-the-first-person-mode-that-rockstar-skipped/",
+      "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
+      "https://kotaku.com/someone-discovered-how-to-glitch-into-first-person-mode-in-gta-6-2000758931"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "G6GMX_3HJOI",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T19:00:00Z",
+    "url": "https://youtu.be/G6GMX_3HJOI"
   }
 ]
