@@ -216,5 +216,23 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-21T20:25:14+00:00"
+  },
+  {
+    "id": "20261121-230903-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-21T23:09:03+00:00",
+    "estado": "ok",
+    "fin": "2026-11-21T23:09:03+00:00"
+  },
+  {
+    "id": "20261121-230903-short",
+    "tipo": "short",
+    "inicio": "2026-11-21T23:09:03+00:00",
+    "estado": "ok",
+    "tema": "Players report game-breaking crashes and error codes on PS5 and Xbox consoles following GTA 6's release",
+    "video": "2026-11-21-short-players-report-game-breaking-crashes-and-error-cod",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T23:16:16+00:00"
   }
 ]

@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-21 20:25 UTC*
+*Actualizado: 2026-11-21 23:16 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 0 | 12 | 7 | 4 | 2 | $0.00 |
+| 0 | 0 | 13 | 7 | 5 | 2 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-21 | short | [GTA 6 Console Crashes Reported by PS5 and Xbox Players #Crashes #PS5 #Shorts](https://youtu.be/sexdVlezp6w) | programado | — |
 | 2026-11-21 | short | [GTA 6 Xbox Auto-Uploads Could Get You Banned #Xbox #XboxSeriesX #Shorts](https://youtu.be/GNE9rIlFyfs) | programado | — |
 | 2026-11-21 | short | [GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts](https://youtu.be/QQvxGEd0T-s) | programado | — |
 | 2026-11-21 | short | [Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts](https://youtu.be/gNM88eUGZwo) | programado | — |

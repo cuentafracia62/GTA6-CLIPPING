@@ -637,5 +637,60 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T22:00:00Z",
     "url": "https://youtu.be/GNE9rIlFyfs"
+  },
+  {
+    "id": "2026-11-21-short-players-report-game-breaking-crashes-and-error-cod",
+    "fecha": "2026-11-21T23:16:13+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Players report game-breaking crashes and error codes on PS5 and Xbox consoles following GTA 6's release",
+    "tema_clave": "gta-6-console-crashes",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Console Crashes Reported by PS5 and Xbox Players #Crashes #PS5 #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "grafico_limpio",
+    "duracion": 48.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.ign.com/articles/gta-6-players-report-crashes-on-ps5-with-error-ce-108255-1",
+      "https://www.dexerto.com/gta/gta-6-players-report-game-breaking-crashes-on-ps5-and-xbox-3430090/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "sexdVlezp6w",
+    "privacidad": "private",
+    "publicar_en": "2026-11-22T01:00:00Z",
+    "url": "https://youtu.be/sexdVlezp6w"
   }
 ]
