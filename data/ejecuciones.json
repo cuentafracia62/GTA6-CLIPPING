@@ -198,5 +198,23 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-21T16:33:51+00:00"
+  },
+  {
+    "id": "20261121-201411-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-21T20:14:11+00:00",
+    "estado": "ok",
+    "fin": "2026-11-21T20:14:11+00:00"
+  },
+  {
+    "id": "20261121-201411-short",
+    "tipo": "short",
+    "inicio": "2026-11-21T20:14:11+00:00",
+    "estado": "ok",
+    "tema": "Xbox players risk bans due to automatic capture uploads of mature GTA 6 content to the Xbox Network",
+    "video": "2026-11-21-short-xbox-players-risk-bans-due-to-automatic-capture-up",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-21T20:25:14+00:00"
   }
 ]

@@ -582,5 +582,60 @@
     "privacidad": "private",
     "publicar_en": "2026-11-21T18:00:00Z",
     "url": "https://youtu.be/QQvxGEd0T-s"
+  },
+  {
+    "id": "2026-11-21-short-xbox-players-risk-bans-due-to-automatic-capture-up",
+    "fecha": "2026-11-21T20:25:11+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Xbox players risk bans due to automatic capture uploads of mature GTA 6 content to the Xbox Network",
+    "tema_clave": "xbox-capture-auto-upload-bans",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Xbox Auto-Uploads Could Get You Banned #Xbox #XboxSeriesX #Shorts",
+    "estructura": "three_things",
+    "estilo": "grafico_limpio",
+    "duracion": 54.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.videogameschronicle.com/guide/gta-6-xbox-psa-how-to-stop-automatic-clip-uploads-and-avoid-bans/",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-xbox-auto-uploads/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "GNE9rIlFyfs",
+    "privacidad": "private",
+    "publicar_en": "2026-11-21T22:00:00Z",
+    "url": "https://youtu.be/GNE9rIlFyfs"
   }
 ]
