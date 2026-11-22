@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-22 14:16 UTC*
+*Actualizado: 2026-11-22 16:29 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 36 | 14 | 12 | 1 | 5 | $0.00 |
+| 0 | 36 | 15 | 12 | 2 | 5 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-22 | short | [GTA 6 Radio: How Celebrities Built the Franchise Soundtrack #GTA6 #GTAVI #Shorts](https://youtu.be/ayhzCLHReXk) | programado | — |
 | 2026-11-22 | short | [The Hidden Minigame That Pulled GTA From Shelves #HotCoffee #RockstarGames #Shorts](https://youtu.be/vU9cemWV8dQ) | programado | — |
 | 2026-11-21 | short | [GTA 6 Console Crashes Reported by PS5 and Xbox Players #Crashes #PS5 #Shorts](https://youtu.be/sexdVlezp6w) | publicado | 37 |
 | 2026-11-21 | short | [GTA 6 Xbox Auto-Uploads Could Get You Banned #Xbox #XboxSeriesX #Shorts](https://youtu.be/GNE9rIlFyfs) | publicado | 2 |

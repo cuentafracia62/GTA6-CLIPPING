@@ -289,5 +289,23 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-22T14:16:29+00:00"
+  },
+  {
+    "id": "20261122-161755-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-22T16:17:55+00:00",
+    "estado": "ok",
+    "fin": "2026-11-22T16:17:55+00:00"
+  },
+  {
+    "id": "20261122-161755-short",
+    "tipo": "short",
+    "inicio": "2026-11-22T16:17:55+00:00",
+    "estado": "ok",
+    "tema": "The voice and music of GTA: radio stations explained",
+    "video": "2026-11-22-short-the-voice-and-music-of-gta-radio-stations-explaine",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-22T16:29:06+00:00"
   }
 ]

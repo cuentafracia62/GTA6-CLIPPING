@@ -739,5 +739,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-22T15:00:00Z",
     "url": "https://youtu.be/vU9cemWV8dQ"
+  },
+  {
+    "id": "2026-11-22-short-the-voice-and-music-of-gta-radio-stations-explaine",
+    "fecha": "2026-11-22T16:29:03+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "The voice and music of GTA: radio stations explained",
+    "tema_clave": "The voice and music of GTA: radio stations explained",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Radio: How Celebrities Built the Franchise Soundtrack #GTA6 #GTAVI #Shorts",
+    "estructura": "question",
+    "estilo": "grafico_limpio",
+    "duracion": 44.0,
+    "escenas": 6,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "ayhzCLHReXk",
+    "privacidad": "private",
+    "publicar_en": "2026-11-22T18:00:00Z",
+    "url": "https://youtu.be/ayhzCLHReXk"
   }
 ]
