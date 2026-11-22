@@ -785,5 +785,59 @@
     "privacidad": "private",
     "publicar_en": "2026-11-22T18:00:00Z",
     "url": "https://youtu.be/ayhzCLHReXk"
+  },
+  {
+    "id": "2026-11-22-short-gta-6-expands-vehicle-mechanics-so-cars-serve-as-c",
+    "fecha": "2026-11-22T20:27:57+00:00",
+    "formato": "short",
+    "estado": "en_revision",
+    "tema": "GTA 6 expands vehicle mechanics so cars serve as customizable mobile bases rather than simple getaway tools.",
+    "tema_clave": "gta-6-cars-mobile-base",
+    "categoria": "noticia",
+    "interes_fuentes": 1,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Rumor: Are Cars Now Mobile Bases? #GTA6Vehicles #GTA6Leaks #Shorts",
+    "estructura": "question",
+    "estilo": "postal_retro",
+    "duracion": 45.6,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.ign.com/articles/in-gta-6-cars-are-way-way-more-than-just-getaway-wheels"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "Jc94znH81Bk",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/Jc94znH81Bk"
   }
 ]
