@@ -241,5 +241,25 @@
     "inicio": "2026-11-22T07:05:51+00:00",
     "estado": "ok",
     "fin": "2026-11-22T07:05:52+00:00"
+  },
+  {
+    "id": "20261122-090619-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-22T09:06:19+00:00",
+    "estado": "error",
+    "tema": "Lawrence Sullivan, known as the 'Florida Joker', makes a cameo and special voice acting appearance in GTA 6 after settling his likeness dispute with Rockstar",
+    "fin": "2026-11-22T09:11:18+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 660 palabras (esperaba 950-2100) | pollinations: escena incompleta | gemini: 613 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 660 palabras (esperaba 950-2100) | pollinations: escena incompleta | gemini: 613 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)\n"
+  },
+  {
+    "id": "20261122-091619-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-22T09:16:19+00:00",
+    "estado": "error",
+    "tema": "The original Grand Theft Auto (1997): where it all began",
+    "fin": "2026-11-22T09:24:10+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)\n"
   }
 ]
