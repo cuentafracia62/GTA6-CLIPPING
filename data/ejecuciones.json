@@ -325,5 +325,23 @@
     "estado_video": "en_revision",
     "costo_usd": 0.0,
     "fin": "2026-11-22T20:28:00+00:00"
+  },
+  {
+    "id": "20261122-231115-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-22T23:11:15+00:00",
+    "estado": "ok",
+    "fin": "2026-11-22T23:11:15+00:00"
+  },
+  {
+    "id": "20261122-231115-short",
+    "tipo": "short",
+    "inicio": "2026-11-22T23:11:15+00:00",
+    "estado": "ok",
+    "tema": "Rockstar reveals that GTA 6 protagonist Jason Duval's quiet, stoic personality was inspired by Steve McQueen and real-world research into Army veterans.",
+    "video": "2026-11-22-short-rockstar-reveals-that-gta-6-protagonist-jason-duva",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-22T23:25:07+00:00"
   }
 ]

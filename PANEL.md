@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-22 20:28 UTC*
+*Actualizado: 2026-11-22 23:25 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 36 | 16 | 12 | 2 | 5 | $0.00 |
+| 0 | 36 | 17 | 12 | 3 | 5 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-22 | short | [GTA 6: Why Jason Duval is so quiet #JasonDuval #RupertHumphries #Shorts](https://youtu.be/lMyDADc025o) | programado | — |
 | 2026-11-22 | short | [GTA 6 Rumor: Are Cars Now Mobile Bases? #GTA6Vehicles #GTA6Leaks #Shorts](https://youtu.be/Jc94znH81Bk) | en_revision | — |
 | 2026-11-22 | short | [GTA 6 Radio: How Celebrities Built the Franchise Soundtrack #GTA6 #GTAVI #Shorts](https://youtu.be/ayhzCLHReXk) | programado | — |
 | 2026-11-22 | short | [The Hidden Minigame That Pulled GTA From Shelves #HotCoffee #RockstarGames #Shorts](https://youtu.be/vU9cemWV8dQ) | programado | — |

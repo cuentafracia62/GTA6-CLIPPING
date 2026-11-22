@@ -839,5 +839,60 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/Jc94znH81Bk"
+  },
+  {
+    "id": "2026-11-22-short-rockstar-reveals-that-gta-6-protagonist-jason-duva",
+    "fecha": "2026-11-22T23:25:04+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Rockstar reveals that GTA 6 protagonist Jason Duval's quiet, stoic personality was inspired by Steve McQueen and real-world research into Army veterans.",
+    "tema_clave": "jason-inspiration-steve-mcqueen",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Why Jason Duval is so quiet #JasonDuval #RupertHumphries #Shorts",
+    "estructura": "question",
+    "estilo": "postal_retro",
+    "duracion": 48.1,
+    "escenas": 7,
+    "clips_reales": 1,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.pcgamer.com/games/grand-theft-auto/jasons-stoic-character-in-grand-theft-auto-6-was-inspired-by-steve-mcqueen-and-research-into-army-veterans-these-guys-typically-arent-running-their-mouths/",
+      "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "lMyDADc025o",
+    "privacidad": "private",
+    "publicar_en": "2026-11-23T01:00:00Z",
+    "url": "https://youtu.be/lMyDADc025o"
   }
 ]
