@@ -1,53 +1,88 @@
 {
   "videos": {
     "ejF39BcES2Y": {
-      "vistas": 12,
+      "vistas": 24,
       "likes": 0,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
     },
     "fXiBwkDEVRM": {
-      "vistas": 35,
+      "vistas": 38,
       "likes": 0,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
     },
     "KXjeoCUT4BU": {
       "vistas": 0,
       "likes": 0,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
     },
     "j83uPC3PQGM": {
-      "vistas": 17,
+      "vistas": 41,
       "likes": 1,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
     },
     "dYRVvPTD8So": {
-      "vistas": 42,
-      "likes": 1,
+      "vistas": 121,
+      "likes": 3,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
     },
     "0Rc7uKSGmBU": {
+      "vistas": 2,
+      "likes": 0,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-22"
+    },
+    "mg6RZF3tc1w": {
+      "vistas": 852,
+      "likes": 17,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-22"
+    },
+    "G6GMX_3HJOI": {
       "vistas": 1,
       "likes": 0,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
     },
-    "mg6RZF3tc1w": {
-      "vistas": 33,
+    "gNM88eUGZwo": {
+      "vistas": 51,
       "likes": 1,
       "comentarios": 0,
       "privacidad": "public",
-      "actualizado": "2026-11-21"
+      "actualizado": "2026-11-22"
+    },
+    "QQvxGEd0T-s": {
+      "vistas": 57,
+      "likes": 0,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-22"
+    },
+    "GNE9rIlFyfs": {
+      "vistas": 2,
+      "likes": 0,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-22"
+    },
+    "sexdVlezp6w": {
+      "vistas": 37,
+      "likes": 1,
+      "comentarios": 0,
+      "privacidad": "public",
+      "actualizado": "2026-11-22"
     }
   },
   "historial_canal": [
@@ -68,13 +103,19 @@
       "vistas": 0,
       "videos": 6,
       "fecha": "2026-11-21"
+    },
+    {
+      "suscriptores": 0,
+      "vistas": 36,
+      "videos": 12,
+      "fecha": "2026-11-22"
     }
   ],
   "canal": {
     "suscriptores": 0,
-    "vistas": 0,
-    "videos": 6,
-    "fecha": "2026-11-21"
+    "vistas": 36,
+    "videos": 12,
+    "fecha": "2026-11-22"
   },
-  "actualizado": "2026-11-21T07:05:32+00:00"
+  "actualizado": "2026-11-22T07:05:52+00:00"
 }

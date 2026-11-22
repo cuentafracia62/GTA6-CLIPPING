@@ -1,10 +1,17 @@
 {
-  "actualizado": "2026-11-21T07:05:32+00:00",
-  "videos_analizados": 0,
-  "peso_categoria": {},
+  "actualizado": "2026-11-22T07:05:52+00:00",
+  "videos_analizados": 2,
+  "peso_categoria": {
+    "noticia": 1.0
+  },
   "titulos_top": {
-    "short": [],
+    "short": [
+      "GTA 6 Smashes All-Time Livestream Records #Twitch #Kick #Shorts",
+      "Rockstar officially confirms full GTA 6 cast #DylanRourke #ManniLPerez #Shorts"
+    ],
     "largo": []
   },
-  "consejos": []
+  "consejos": [
+    "La categoría con mejor rendimiento es 'noticia' (1.0x el promedio)."
+  ]
 }
