@@ -261,5 +261,33 @@
     "fin": "2026-11-22T09:24:10+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)\n"
+  },
+  {
+    "id": "20261122-132940-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-22T13:29:40+00:00",
+    "estado": "ok",
+    "fin": "2026-11-22T13:29:40+00:00"
+  },
+  {
+    "id": "20261122-132940-short",
+    "tipo": "short",
+    "inicio": "2026-11-22T13:29:40+00:00",
+    "estado": "error",
+    "tema": "Circana engagement data shows over half of all active console gamers played GTA 6 on launch day.",
+    "fin": "2026-11-22T13:56:38+00:00",
+    "error": "RuntimeError: Pollinations no devolvió imágenes",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 226, in crear_video\n    creditos = visuales.preparar(escenas, trabajo, vertical, estilo, 0.3 if vertical else 0.6, pool=pool)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/visuales.py\", line 198, in preparar\n    raise RuntimeError(\"Pollinations no devolvió imágenes\")\nRuntimeError: Pollinations no devolvió imágenes\n"
+  },
+  {
+    "id": "20261122-135839-short",
+    "tipo": "short",
+    "inicio": "2026-11-22T13:58:39+00:00",
+    "estado": "ok",
+    "tema": "GTA's most controversial moments in history",
+    "video": "2026-11-22-short-gta-s-most-controversial-moments-in-history",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-22T14:16:29+00:00"
   }
 ]

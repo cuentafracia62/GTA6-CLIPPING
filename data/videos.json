@@ -692,5 +692,52 @@
     "privacidad": "private",
     "publicar_en": "2026-11-22T01:00:00Z",
     "url": "https://youtu.be/sexdVlezp6w"
+  },
+  {
+    "id": "2026-11-22-short-gta-s-most-controversial-moments-in-history",
+    "fecha": "2026-11-22T14:16:26+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "GTA's most controversial moments in history",
+    "tema_clave": "GTA's most controversial moments in history",
+    "categoria": "polemica",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "The Hidden Minigame That Pulled GTA From Shelves #HotCoffee #RockstarGames #Shorts",
+    "estructura": "question",
+    "estilo": "neon_atardecer",
+    "duracion": 43.8,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+      "https://en.wikipedia.org/wiki/Hot_Coffee_(minigame)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "vU9cemWV8dQ",
+    "privacidad": "private",
+    "publicar_en": "2026-11-22T15:00:00Z",
+    "url": "https://youtu.be/vU9cemWV8dQ"
   }
 ]

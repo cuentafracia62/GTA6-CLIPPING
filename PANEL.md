@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-22 09:24 UTC*
+*Actualizado: 2026-11-22 14:16 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 36 | 13 | 12 | 0 | 4 | $0.00 |
+| 0 | 36 | 14 | 12 | 1 | 5 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-22 | short | [The Hidden Minigame That Pulled GTA From Shelves #HotCoffee #RockstarGames #Shorts](https://youtu.be/vU9cemWV8dQ) | programado | — |
 | 2026-11-21 | short | [GTA 6 Console Crashes Reported by PS5 and Xbox Players #Crashes #PS5 #Shorts](https://youtu.be/sexdVlezp6w) | publicado | 37 |
 | 2026-11-21 | short | [GTA 6 Xbox Auto-Uploads Could Get You Banned #Xbox #XboxSeriesX #Shorts](https://youtu.be/GNE9rIlFyfs) | publicado | 2 |
 | 2026-11-21 | short | [GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts](https://youtu.be/QQvxGEd0T-s) | publicado | 57 |
@@ -30,6 +31,7 @@
 
 ## Errores recientes
 
+- 2026-11-22T13:29 · short · `RuntimeError: Pollinations no devolvió imágenes`
 - 2026-11-22T09:16 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)`
 - 2026-11-22T09:06 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 660 palabras (esperaba 950-2100) | pollinations: escena incompleta | gemini: 613 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
 - 2026-11-20T09:23 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 592 palabras (esperaba 950-2100) | pollinations: 20 escenas (esperaba 32-85) | gemini: 729 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
