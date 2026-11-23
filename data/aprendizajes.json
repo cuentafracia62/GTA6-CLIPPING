@@ -1,17 +1,27 @@
 {
-  "actualizado": "2026-11-22T07:05:52+00:00",
-  "videos_analizados": 2,
+  "actualizado": "2026-11-23T07:32:13+00:00",
+  "videos_analizados": 7,
   "peso_categoria": {
-    "noticia": 1.0
+    "noticia": 0.3,
+    "industria": 2.79
   },
   "titulos_top": {
     "short": [
+      "Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts",
+      "GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts",
+      "GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts",
       "GTA 6 Smashes All-Time Livestream Records #Twitch #Kick #Shorts",
       "Rockstar officially confirms full GTA 6 cast #DylanRourke #ManniLPerez #Shorts"
     ],
-    "largo": []
+    "largo": [
+      "GTA 6 Developer History: From DMA Design to Rockstar Games"
+    ]
   },
   "consejos": [
-    "La categoría con mejor rendimiento es 'noticia' (1.0x el promedio)."
-  ]
+    "La categoría con mejor rendimiento es 'industria' (2.79x el promedio).",
+    "Los shorts de 50-60s rinden mejor.",
+    "Las publicaciones cerca de las 20:00 (America/New_York) tienen más vistas."
+  ],
+  "duracion_ideal_short": "50-60s",
+  "mejor_hora": 20
 }
