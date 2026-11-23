@@ -1,15 +1,17 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 14:11 UTC*
+*Actualizado: 2026-11-23 16:55 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 18 | 15 | 1 | 7 | $0.00 |
+| 0 | 1 176 | 20 | 15 | 1 | 9 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | GTA 6 Patch Solves Bugs, Leaves Vignette Unfixed #GTA6 #Rockstar #Shorts | retenido_calidad | — |
+| 2026-11-23 | short | GTA 6 Patch 01.002.002: Progression Bug Fixed #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 Streamers Hit by Reggaeton Artist Copyright Strikes #GTA6 #FRANKELSANTO #Shorts](https://youtu.be/BDkIK8k6UjQ) | programado | — |
 | 2026-11-22 | short | [GTA 6: Why Jason Duval is so quiet #JasonDuval #RupertHumphries #Shorts](https://youtu.be/lMyDADc025o) | publicado | 13 |
 | 2026-11-22 | short | [GTA 6 Rumor: Are Cars Now Mobile Bases? #GTA6Vehicles #GTA6Leaks #Shorts](https://youtu.be/Jc94znH81Bk) | en_revision | 0 |
@@ -37,6 +39,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T16:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-23T16:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T09:55 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
 - 2026-11-23T09:43 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 889 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 588 palabras (esperaba 950-2100) | pollinations: escena incompleta`
 - 2026-11-22T13:29 · short · `RuntimeError: Pollinations no devolvió imágenes`

@@ -949,5 +949,111 @@
     "privacidad": "private",
     "publicar_en": "2026-11-23T15:00:00Z",
     "url": "https://youtu.be/BDkIK8k6UjQ"
+  },
+  {
+    "id": "2026-11-23-short-rockstar-has-released-its-first-major-patch-01-002",
+    "fecha": "2026-11-23T16:41:44+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar has released its first major patch (01.002.002) for GTA 6, fixing a critical progression bug on PS5 and Xbox Series X/S that was affecting many players.",
+    "tema_clave": "patch-01-002-002",
+    "categoria": "noticia",
+    "interes_fuentes": 4,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Patch 01.002.002: Progression Bug Fixed #GTA6 #GrandTheftAuto #Shorts",
+    "estructura": "question",
+    "estilo": "noche_miami",
+    "duracion": 42.4,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette",
+      "https://www.ign.com/articles/gta-6-update-01002002-rolling-out-now-although-there-are-no-patch-notes-yet",
+      "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-received-a-new-patch-which-fixes-autosaving/",
+      "https://www.polygon.com/gta-6-first-patch-ps5-xbox-autosave-update-new-changes/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-rockstar-releases-first-postlaunch-patch-for-gta-6",
+    "fecha": "2026-11-23T16:55:48+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar releases first post‑launch patch for GTA 6, fixing major bugs and rolling out new content",
+    "tema_clave": "patch-update-001",
+    "categoria": "noticia",
+    "interes_fuentes": 4,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Patch Solves Bugs, Leaves Vignette Unfixed #GTA6 #Rockstar #Shorts",
+    "estructura": "fact_check",
+    "estilo": "grafico_limpio",
+    "duracion": 53.1,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.gamespot.com/articles/gta-6-first-patch-is-rolling-out/",
+      "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette",
+      "https://www.polygon.com/gta-6-update-today-ver-01002002-where-is-ps5-xbox-download-size-patch-notes/",
+      "https://kotaku.com/gta-6s-first-post-launch-update-fixes-7-bugs-2000759480"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
