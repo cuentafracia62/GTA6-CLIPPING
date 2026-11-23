@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 20:41 UTC*
+*Actualizado: 2026-11-23 23:34 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 24 | 15 | 3 | 11 | $0.00 |
+| 0 | 1 176 | 25 | 15 | 4 | 11 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | [GTA 6 Glitch: 60‑fps Moment Reaffirms 30‑fps Cap #GTA6 #Rockstar #Shorts](https://youtu.be/p6RXG7UVVag) | programado | — |
 | 2026-11-23 | short | [GTA 6: Darts & Bowling Cut – Here’s Why #GTA6 #GrandTheftAuto #Shorts](https://youtu.be/rPfnGnQWBjw) | programado | — |
 | 2026-11-23 | short | GTA 6: The Real Florida Behind Leonida #GTA6 #Florida #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 launches, review bombs hit Zelda and more today #GTA6 #MetaCritic #Shorts](https://youtu.be/-N_74mcjTZU) | programado | — |

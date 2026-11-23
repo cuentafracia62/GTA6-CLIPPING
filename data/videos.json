@@ -1261,5 +1261,60 @@
     "privacidad": "private",
     "publicar_en": "2026-11-24T01:00:00Z",
     "url": "https://youtu.be/rPfnGnQWBjw"
+  },
+  {
+    "id": "2026-11-23-short-players-discover-an-experimental-60-fps-glitch-in-",
+    "fecha": "2026-11-23T23:34:37+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Players discover an experimental 60 fps glitch in GTA 6 on consoles, highlighting the game's strict 30 fps cap",
+    "tema_clave": "gta-6-60fps-glitch-discovery",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Glitch: 60‑fps Moment Reaffirms 30‑fps Cap #GTA6 #Rockstar #Shorts",
+    "estructura": "before_after",
+    "estilo": "noche_miami",
+    "duracion": 70.5,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-players-found-a-60-fps-glitch-but-its-too-unstable-to-stop-me-from-wishing-it-was-on-pc-already/",
+      "https://www.ign.com/articles/players-have-found-a-gta-6-60fps-glitch-but-it-just-reaffirms-rockstars-30fps-cap"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "p6RXG7UVVag",
+    "privacidad": "private",
+    "publicar_en": "2026-11-24T15:00:00Z",
+    "url": "https://youtu.be/p6RXG7UVVag"
   }
 ]

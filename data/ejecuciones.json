@@ -464,5 +464,16 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-23T20:41:01+00:00"
+  },
+  {
+    "id": "20261123-232007-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T23:20:07+00:00",
+    "estado": "ok",
+    "tema": "Players discover an experimental 60 fps glitch in GTA 6 on consoles, highlighting the game's strict 30 fps cap",
+    "video": "2026-11-23-short-players-discover-an-experimental-60-fps-glitch-in-",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-23T23:34:40+00:00"
   }
 ]
