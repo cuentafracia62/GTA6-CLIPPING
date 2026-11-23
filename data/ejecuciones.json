@@ -350,5 +350,25 @@
     "inicio": "2026-11-23T07:32:12+00:00",
     "estado": "ok",
     "fin": "2026-11-23T07:32:13+00:00"
+  },
+  {
+    "id": "20261123-094336-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-23T09:43:36+00:00",
+    "estado": "error",
+    "tema": "Comcast reports that Grand Theft Auto 6 accounted for nearly a quarter of all internet traffic at its peak during launch.",
+    "fin": "2026-11-23T09:50:47+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 889 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 588 palabras (esperaba 950-2100) | pollinations: escena incompleta",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 889 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 588 palabras (esperaba 950-2100) | pollinations: escena incompleta\n"
+  },
+  {
+    "id": "20261123-095548-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-23T09:55:48+00:00",
+    "estado": "error",
+    "tema": "GTA 6 becomes the target of a Metacritic review bombing war with Zelda: Ocarina of Time fans",
+    "fin": "2026-11-23T10:03:17+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)\n"
   }
 ]

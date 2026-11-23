@@ -1,10 +1,10 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 07:32 UTC*
+*Actualizado: 2026-11-23 10:03 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 17 | 15 | 0 | 5 | $0.00 |
+| 0 | 1 176 | 17 | 15 | 0 | 7 | $0.00 |
 
 ## Últimos videos
 
@@ -36,6 +36,8 @@
 
 ## Errores recientes
 
+- 2026-11-23T09:55 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
+- 2026-11-23T09:43 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 889 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 588 palabras (esperaba 950-2100) | pollinations: escena incompleta`
 - 2026-11-22T13:29 · short · `RuntimeError: Pollinations no devolvió imágenes`
 - 2026-11-22T09:16 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)`
 - 2026-11-22T09:06 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 660 palabras (esperaba 950-2100) | pollinations: escena incompleta | gemini: 613 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
