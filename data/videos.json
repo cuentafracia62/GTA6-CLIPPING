@@ -1055,5 +1055,113 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-rockstar-releases-its-first-postlaunch-patch-for-g",
+    "fecha": "2026-11-23T17:42:47+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar releases its first post‑launch patch for GTA 6, fixing a handful of bugs and adding a handful of small quality‑of‑life tweaks",
+    "tema_clave": "gtav6-first-patch",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Patch: 7 Bugs Fixed, No Major Overhaul #GTA6 #GrandTheftAuto #Shorts",
+    "estructura": "before_after",
+    "estilo": "grafico_limpio",
+    "duracion": 58.9,
+    "escenas": 10,
+    "clips_reales": 3,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://kotaku.com/gta-6s-first-post-launch-update-fixes-7-bugs-2000759480",
+      "https://www.gamespot.com/articles/gta-6-first-patch-is-rolling-out/",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-update-gives-players-losing-progress-to-crashes-a-lifeline-and-it-looks-like-the-first-person-and-60fps-glitches-are-safe-for-now/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-metacritic-user-reviews-for-gta-6-devolve-into-a-r",
+    "fecha": "2026-11-23T17:53:19+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Metacritic user reviews for GTA 6 devolve into a review-bombing war affecting unrelated games like Ocarina of Time",
+    "tema_clave": "metacritic-review-bombing-war",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 launches, review bombs hit Zelda and more today #GTA6 #MetaCritic #Shorts",
+    "estructura": "before_after",
+    "estilo": "postal_retro",
+    "duracion": 49.1,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.dexerto.com/gaming/gta-6-and-ocarina-of-time-remake-caught-in-metacritic-review-bomb-war-3430280/",
+      "https://www.eurogamer.net/gta-6-metacritic-review-bomb",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review-bomb-somehow-sees-zelda-ocarina-of-time-catch-strays/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "-N_74mcjTZU",
+    "privacidad": "private",
+    "publicar_en": "2026-11-23T22:00:00Z",
+    "url": "https://youtu.be/-N_74mcjTZU"
   }
 ]

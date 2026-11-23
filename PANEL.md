@@ -1,15 +1,17 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 16:55 UTC*
+*Actualizado: 2026-11-23 17:53 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 20 | 15 | 1 | 9 | $0.00 |
+| 0 | 1 176 | 22 | 15 | 2 | 10 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | [GTA 6 launches, review bombs hit Zelda and more today #GTA6 #MetaCritic #Shorts](https://youtu.be/-N_74mcjTZU) | programado | — |
+| 2026-11-23 | short | GTA 6 Patch: 7 Bugs Fixed, No Major Overhaul #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | GTA 6 Patch Solves Bugs, Leaves Vignette Unfixed #GTA6 #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | GTA 6 Patch 01.002.002: Progression Bug Fixed #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 Streamers Hit by Reggaeton Artist Copyright Strikes #GTA6 #FRANKELSANTO #Shorts](https://youtu.be/BDkIK8k6UjQ) | programado | — |
@@ -39,6 +41,7 @@
 
 ## Errores recientes
 
+- 2026-11-23T17:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T09:55 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
