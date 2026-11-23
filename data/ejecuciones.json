@@ -443,5 +443,26 @@
     "estado_video": "programado",
     "costo_usd": 0.0,
     "fin": "2026-11-23T17:53:21+00:00"
+  },
+  {
+    "id": "20261123-202313-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T20:23:13+00:00",
+    "estado": "error",
+    "tema": "The real Florida behind Leonida",
+    "fin": "2026-11-23T20:31:07+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 262, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261123-203308-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T20:33:08+00:00",
+    "estado": "ok",
+    "tema": "Rockstar Games developers explain why classic mini-games like darts and bowling were cut from GTA 6, citing a lack of resources to reach their quality standards.",
+    "video": "2026-11-23-short-rockstar-games-developers-explain-why-classic-mini",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-23T20:41:01+00:00"
   }
 ]

@@ -1,15 +1,17 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 17:53 UTC*
+*Actualizado: 2026-11-23 20:41 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 22 | 15 | 2 | 10 | $0.00 |
+| 0 | 1 176 | 24 | 15 | 3 | 11 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | [GTA 6: Darts & Bowling Cut – Here’s Why #GTA6 #GrandTheftAuto #Shorts](https://youtu.be/rPfnGnQWBjw) | programado | — |
+| 2026-11-23 | short | GTA 6: The Real Florida Behind Leonida #GTA6 #Florida #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 launches, review bombs hit Zelda and more today #GTA6 #MetaCritic #Shorts](https://youtu.be/-N_74mcjTZU) | programado | — |
 | 2026-11-23 | short | GTA 6 Patch: 7 Bugs Fixed, No Major Overhaul #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | GTA 6 Patch Solves Bugs, Leaves Vignette Unfixed #GTA6 #Rockstar #Shorts | retenido_calidad | — |
@@ -41,6 +43,7 @@
 
 ## Errores recientes
 
+- 2026-11-23T20:23 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T17:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -50,4 +53,3 @@
 - 2026-11-22T09:16 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)`
 - 2026-11-22T09:06 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 660 palabras (esperaba 950-2100) | pollinations: escena incompleta | gemini: 613 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
 - 2026-11-20T09:23 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 592 palabras (esperaba 950-2100) | pollinations: 20 escenas (esperaba 32-85) | gemini: 729 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
-- 2026-11-19T22:32 · estadisticas · `KeyError: 'videos'`

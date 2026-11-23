@@ -1163,5 +1163,103 @@
     "privacidad": "private",
     "publicar_en": "2026-11-23T22:00:00Z",
     "url": "https://youtu.be/-N_74mcjTZU"
+  },
+  {
+    "id": "2026-11-23-short-the-real-florida-behind-leonida",
+    "fecha": "2026-11-23T20:31:07+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "The real Florida behind Leonida",
+    "tema_clave": "The real Florida behind Leonida",
+    "categoria": "mundo",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: The Real Florida Behind Leonida #GTA6 #Florida #Shorts",
+    "estructura": "three_things",
+    "estilo": "neon_atardecer",
+    "duracion": 48.2,
+    "escenas": 6,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "https://en.wikipedia.org/wiki/Miami"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-23-short-rockstar-games-developers-explain-why-classic-mini",
+    "fecha": "2026-11-23T20:40:58+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Rockstar Games developers explain why classic mini-games like darts and bowling were cut from GTA 6, citing a lack of resources to reach their quality standards.",
+    "tema_clave": "gta-6-missing-minigames-explained",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Darts & Bowling Cut – Here’s Why #GTA6 #GrandTheftAuto #Shorts",
+    "estructura": "three_things",
+    "estilo": "grafico_limpio",
+    "duracion": 45.7,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/grand-theft-auto-6-no-darts-didnt-have-resources",
+      "https://www.dexerto.com/gta/gta-6-boss-explains-why-classic-mini-games-from-previous-games-are-missing-3430575/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "rPfnGnQWBjw",
+    "privacidad": "private",
+    "publicar_en": "2026-11-24T01:00:00Z",
+    "url": "https://youtu.be/rPfnGnQWBjw"
   }
 ]
