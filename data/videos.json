@@ -894,5 +894,60 @@
     "privacidad": "private",
     "publicar_en": "2026-11-23T01:00:00Z",
     "url": "https://youtu.be/lMyDADc025o"
+  },
+  {
+    "id": "2026-11-23-short-youtubers-and-streamers-face-copyright-strikes-on-",
+    "fecha": "2026-11-23T14:11:30+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "YouTubers and streamers face copyright strikes on GTA 6 videos due to automated claims by reggaeton artist Frank El Santo",
+    "tema_clave": "gta6-reggaeton-copyright-strikes",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Streamers Hit by Reggaeton Artist Copyright Strikes #GTA6 #FRANKELSANTO #Shorts",
+    "estructura": "before_after",
+    "estilo": "postal_retro",
+    "duracion": 49.2,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.dexerto.com/youtube/musician-responds-as-countless-youtubers-hit-with-copyright-strikes-on-gta-6-videos-3430646/",
+      "https://www.polygon.com/gta-6-streamers-copyright-claim-frank-el-santo/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "BDkIK8k6UjQ",
+    "privacidad": "private",
+    "publicar_en": "2026-11-23T15:00:00Z",
+    "url": "https://youtu.be/BDkIK8k6UjQ"
   }
 ]

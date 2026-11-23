@@ -370,5 +370,23 @@
     "fin": "2026-11-23T10:03:17+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)\n"
+  },
+  {
+    "id": "20261123-135345-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-23T13:53:45+00:00",
+    "estado": "ok",
+    "fin": "2026-11-23T13:53:45+00:00"
+  },
+  {
+    "id": "20261123-135345-short",
+    "tipo": "short",
+    "inicio": "2026-11-23T13:53:45+00:00",
+    "estado": "ok",
+    "tema": "YouTubers and streamers face copyright strikes on GTA 6 videos due to automated claims by reggaeton artist Frank El Santo",
+    "video": "2026-11-23-short-youtubers-and-streamers-face-copyright-strikes-on-",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-23T14:11:32+00:00"
   }
 ]

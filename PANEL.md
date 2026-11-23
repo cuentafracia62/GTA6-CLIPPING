@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 10:03 UTC*
+*Actualizado: 2026-11-23 14:11 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 17 | 15 | 0 | 7 | $0.00 |
+| 0 | 1 176 | 18 | 15 | 1 | 7 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-23 | short | [GTA 6 Streamers Hit by Reggaeton Artist Copyright Strikes #GTA6 #FRANKELSANTO #Shorts](https://youtu.be/BDkIK8k6UjQ) | programado | — |
 | 2026-11-22 | short | [GTA 6: Why Jason Duval is so quiet #JasonDuval #RupertHumphries #Shorts](https://youtu.be/lMyDADc025o) | publicado | 13 |
 | 2026-11-22 | short | [GTA 6 Rumor: Are Cars Now Mobile Bases? #GTA6Vehicles #GTA6Leaks #Shorts](https://youtu.be/Jc94znH81Bk) | en_revision | 0 |
 | 2026-11-22 | short | [GTA 6 Radio: How Celebrities Built the Franchise Soundtrack #GTA6 #GTAVI #Shorts](https://youtu.be/ayhzCLHReXk) | publicado | 33 |
