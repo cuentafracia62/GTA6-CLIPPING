@@ -1524,5 +1524,99 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-rockstar-games-is-exploring-options-to-adapt-the-r",
+    "fecha": "2026-11-24T17:38:27+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar Games is exploring options to adapt the Red Dead Redemption franchise into a film or TV series, as reported by multiple outlets.",
+    "tema_clave": "rdr_movie_plans",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "reported",
+    "titulo_yt": "Rockstar Eyes Red Dead for Screen #GTA6 #RedDeadRedemption #Shorts",
+    "estructura": "three_things",
+    "estilo": "postal_retro",
+    "duracion": 48.7,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.gamesradar.com/entertainment/live-action-movies/rockstar-is-reportedly-looking-into-turning-red-dead-redemption-into-a-movie-or-tv-show/",
+      "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta",
+      "https://www.videogameschronicle.com/news/rockstar-is-reportedly-interested-in-a-red-dead-redemption-film-or-tv-show/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-why-vice-city-became-a-fan-favorite",
+    "fecha": "2026-11-24T17:51:54+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Why Vice City became a fan favorite",
+    "tema_clave": "Why Vice City became a fan favorite",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Why Vice City Became a Fan Favorite #ViceCity #GrandTheftAuto #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "grafico_limpio",
+    "duracion": 48.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
