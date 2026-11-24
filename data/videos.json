@@ -1706,5 +1706,117 @@
     "privacidad": "private",
     "publicar_en": "2026-11-24T22:00:00Z",
     "url": "https://youtu.be/kFfy-dGxIxw"
+  },
+  {
+    "id": "2026-11-24-short-rockstar-shuts-down-discord-server-attempting-to-c",
+    "fecha": "2026-11-24T23:29:13+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar shuts down Discord server attempting to create an unofficial GTA 6 PC port",
+    "tema_clave": "rockstar-discord-pc-port",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6: Rockstar Removes Project Leonida Discord #GTA6 #LeakedCode #Shorts",
+    "estructura": "question",
+    "estilo": "grafico_limpio",
+    "duracion": 49.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.dexerto.com/gta/rockstar-shuts-down-discord-server-trying-to-make-gta-6-pc-port-3430905/",
+      "https://www.gamesradar.com/games/grand-theft-auto/unofficial-gta-6-pc-port-scrapped-as-rockstar-allegedly-takes-down-discord-server-hours-after-devs-managed-to-get-the-game-booting/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-rockstar-releases-a-new-patch-fixing-a-critical-pr",
+    "fecha": "2026-11-24T23:40:01+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar releases a new patch fixing a critical progression bug on PS5 and Xbox Series X/S after launch.",
+    "tema_clave": "rockstar-patch-2026-11-24",
+    "categoria": "noticia",
+    "interes_fuentes": 4,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Patch Fixes Lockout Bug on PS5 & Xbox #GTA6 #Rockstar #Shorts",
+    "estructura": "question",
+    "estilo": "noche_miami",
+    "duracion": 44.9,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.gamespot.com/articles/just-like-gta-6-the-witcher-4-has-a-playstation-deal/",
+      "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-players-swore-the-weather-system-was-broken-and-the-latest-patch-has-confirmed-those-suspicions/",
+      "https://www.dexerto.com/gta/pastor-boots-up-gta-6-during-service-after-religious-backlash-over-game-3431044/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

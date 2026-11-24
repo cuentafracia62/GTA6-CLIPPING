@@ -1,15 +1,17 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-24 20:49 UTC*
+*Actualizado: 2026-11-24 23:40 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 33 | 15 | 6 | 19 | $0.00 |
+| 0 | 1 176 | 35 | 15 | 6 | 21 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | GTA 6 Patch Fixes Lockout Bug on PS5 & Xbox #GTA6 #Rockstar #Shorts | retenido_calidad | — |
+| 2026-11-24 | short | GTA 6: Rockstar Removes Project Leonida Discord #GTA6 #LeakedCode #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | [GTA 6 owes everything to a 23-person team #DMADesign #LibertyCity #Shorts](https://youtu.be/kFfy-dGxIxw) | programado | — |
 | 2026-11-24 | short | GTA 6: The Delay Timeline Explained #GTA6 #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | GTA 6: Why Vice City Became a Fan Favorite #ViceCity #GrandTheftAuto #Shorts | retenido_calidad | — |
@@ -38,8 +40,6 @@
 | 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | publicado | 937 |
 | 2026-11-20 | short | [GTA 6 Shatters Records With $3.79 Billion Day One #GTA6Sales #LaunchDay #Shorts](https://youtu.be/0Rc7uKSGmBU) | publicado | 2 |
 | 2026-11-20 | short | [GTA 6: How GTA IV Changed Rockstar's World Design #LibertyCity #GTAIV #Shorts](https://youtu.be/dYRVvPTD8So) | publicado | 132 |
-| 2026-11-20 | short | [GTA 6: Did 2 Million Players Move to New Zealand? #NewZealandTrick #XboxRelease #Shorts](https://youtu.be/j83uPC3PQGM) | publicado | 43 |
-| 2026-11-20 | largo | [GTA 6 Developer History: From DMA Design to Rockstar Games](https://youtu.be/KXjeoCUT4BU) | publicado | 0 |
 
 ## Aprendizajes
 
@@ -49,6 +49,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T23:31 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-24T23:20 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T20:23 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T17:40 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T17:25 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -57,5 +59,3 @@
 - 2026-11-24T13:48 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T09:45 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 739 palabras (esperaba 950-2100) | pollinations: 13 escenas (esperaba 32-85) | gemini: 840 palabras (esperaba 950-2100) | pollinations: 10 escenas (esperaba 32-85)`
 - 2026-11-24T09:32 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 784 palabras (esperaba 950-2100) | pollinations: 11 escenas (esperaba 32-85) | gemini: 652 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
-- 2026-11-23T20:23 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-23T17:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
