@@ -1618,5 +1618,93 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-every-gta-6-delay-explained",
+    "fecha": "2026-11-24T20:39:19+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Every GTA 6 delay, explained",
+    "tema_clave": "Every GTA 6 delay, explained",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: The Delay Timeline Explained #GTA6 #Rockstar #Shorts",
+    "estructura": "fact_check",
+    "estilo": "postal_retro",
+    "duracion": 54.9,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-gta-iii-and-the-jump-to-3d",
+    "fecha": "2026-11-24T20:49:25+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "GTA III and the jump to 3D",
+    "tema_clave": "GTA III and the jump to 3D",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 owes everything to a 23-person team #DMADesign #LibertyCity #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "grafico_limpio",
+    "duracion": 43.6,
+    "escenas": 6,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "kFfy-dGxIxw",
+    "privacidad": "private",
+    "publicar_en": "2026-11-24T22:00:00Z",
+    "url": "https://youtu.be/kFfy-dGxIxw"
   }
 ]
