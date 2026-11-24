@@ -1316,5 +1316,111 @@
     "privacidad": "private",
     "publicar_en": "2026-11-24T15:00:00Z",
     "url": "https://youtu.be/p6RXG7UVVag"
+  },
+  {
+    "id": "2026-11-24-short-sony-reports-that-gta-6-had-over-39-million-unique",
+    "fecha": "2026-11-24T14:09:19+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Sony reports that GTA 6 had over 39 million unique PlayStation players on launch day, making it the biggest launch in PlayStation history",
+    "tema_clave": "ps-launch-stats",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: 39 M PLAYERS on PS5 – the biggest launch ever #GTA6 #Rockstar #Shorts",
+    "estructura": "question",
+    "estilo": "grafico_limpio",
+    "duracion": 63.6,
+    "escenas": 9,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.polygon.com/gta-6-biggest-launch-in-ps-history/",
+      "https://www.eurogamer.net/more-than-39-million-people-have-played-gta-6-on-playstation-alone-sony-says-as-the-game-breaks-all-time-player-numbers-on-the-platform"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-cyberpunk-2-s-creative-director-jokes-that-the-gam",
+    "fecha": "2026-11-24T14:21:34+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Cyberpunk 2's creative director jokes that the game is cancelled after seeing the unprecedented open-world achievements of GTA 6",
+    "tema_clave": "cyberpunk-2-director-gta6-reaction",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 sparks Cyberpunk 2 dev dread, but it’s just a joke #GTA6 #Cyberpunk2 #Shorts",
+    "estructura": "question",
+    "estilo": "postal_retro",
+    "duracion": 47.0,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.pcgamer.com/games/cyberpunk-2-creative-director-says-hes-suffering-from-gta-6-induced-open-world-game-dev-depression-jokes-that-cyberpunk-2-is-cancelled/",
+      "https://www.dexerto.com/gta/cyberpunk-2-director-jokes-game-is-cancelled-after-seeing-gta-6-3430664/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "yWHJuYtdtuQ",
+    "privacidad": "private",
+    "publicar_en": "2026-11-24T18:00:00Z",
+    "url": "https://youtu.be/yWHJuYtdtuQ"
   }
 ]

@@ -495,5 +495,33 @@
     "fin": "2026-11-24T09:50:55+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 739 palabras (esperaba 950-2100) | pollinations: 13 escenas (esperaba 32-85) | gemini: 840 palabras (esperaba 950-2100) | pollinations: 10 escenas (esperaba 32-85)",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 739 palabras (esperaba 950-2100) | pollinations: 13 escenas (esperaba 32-85) | gemini: 840 palabras (esperaba 950-2100) | pollinations: 10 escenas (esperaba 32-85)\n"
+  },
+  {
+    "id": "20261124-134849-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-24T13:48:49+00:00",
+    "estado": "ok",
+    "fin": "2026-11-24T13:48:49+00:00"
+  },
+  {
+    "id": "20261124-134849-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T13:48:49+00:00",
+    "estado": "error",
+    "tema": "Sony reports that GTA 6 had over 39 million unique PlayStation players on launch day, making it the biggest launch in PlayStation history",
+    "fin": "2026-11-24T14:09:19+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 262, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261124-141119-short",
+    "tipo": "short",
+    "inicio": "2026-11-24T14:11:19+00:00",
+    "estado": "ok",
+    "tema": "Cyberpunk 2's creative director jokes that the game is cancelled after seeing the unprecedented open-world achievements of GTA 6",
+    "video": "2026-11-24-short-cyberpunk-2-s-creative-director-jokes-that-the-gam",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-24T14:21:38+00:00"
   }
 ]
