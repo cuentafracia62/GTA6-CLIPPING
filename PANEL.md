@@ -1,10 +1,10 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-23 23:34 UTC*
+*Actualizado: 2026-11-24 09:50 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 25 | 15 | 4 | 11 | $0.00 |
+| 0 | 1 176 | 25 | 15 | 4 | 13 | $0.00 |
 
 ## Últimos videos
 
@@ -44,6 +44,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T09:45 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 739 palabras (esperaba 950-2100) | pollinations: 13 escenas (esperaba 32-85) | gemini: 840 palabras (esperaba 950-2100) | pollinations: 10 escenas (esperaba 32-85)`
+- 2026-11-24T09:32 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 784 palabras (esperaba 950-2100) | pollinations: 11 escenas (esperaba 32-85) | gemini: 652 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
 - 2026-11-23T20:23 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T17:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -52,5 +54,3 @@
 - 2026-11-23T09:43 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 889 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 588 palabras (esperaba 950-2100) | pollinations: escena incompleta`
 - 2026-11-22T13:29 · short · `RuntimeError: Pollinations no devolvió imágenes`
 - 2026-11-22T09:16 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 834 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85) | gemini: 864 palabras (esperaba 950-2100) | pollinations: 19 escenas (esperaba 32-85)`
-- 2026-11-22T09:06 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 660 palabras (esperaba 950-2100) | pollinations: escena incompleta | gemini: 613 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
-- 2026-11-20T09:23 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 592 palabras (esperaba 950-2100) | pollinations: 20 escenas (esperaba 32-85) | gemini: 729 palabras (esperaba 950-2100) | pollinations: 17 escenas (esperaba 32-85)`
