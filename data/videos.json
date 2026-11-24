@@ -1422,5 +1422,107 @@
     "privacidad": "private",
     "publicar_en": "2026-11-24T18:00:00Z",
     "url": "https://youtu.be/yWHJuYtdtuQ"
+  },
+  {
+    "id": "2026-11-24-short-sony-reports-gta-6-shattered-playstation-records-h",
+    "fecha": "2026-11-24T16:50:50+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Sony reports GTA 6 shattered PlayStation records, hitting over 39 million concurrent players and setting a new launch milestone.",
+    "tema_clave": "sony-playstation-record",
+    "categoria": "noticia",
+    "interes_fuentes": 1,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Shatters PlayStation Records, 39M Players #GTA6 #Gaming #Shorts",
+    "estructura": "question",
+    "estilo": "noche_miami",
+    "duracion": 54.9,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://kotaku.com/gta6-grand-theft-auto-6-ps5-playstation-sony-record-sales-2001000009"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-24-short-rockstar-shuts-down-the-discord-server-attempting-",
+    "fecha": "2026-11-24T17:04:48+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar shuts down the Discord server attempting to create an unofficial GTA 6 PC port, escalating the push against community reverse‑engineering efforts",
+    "tema_clave": "rockstar-discord-shutdown",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6: Rockstar shuts down Project Leonida’s Discord #GTA6 #RockstarGames #Shorts",
+    "estructura": "question",
+    "estilo": "grafico_limpio",
+    "duracion": 45.1,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.gamesradar.com/games/grand-theft-auto/unofficial-gta-6-pc-port-scrapped-as-rockstar-allegedly-takes-down-discord-server-hours-after-devs-managed-to-get-the-game-booting/",
+      "https://www.dexerto.com/gta/rockstar-shuts-down-discord-server-trying-to-make-gta-6-pc-port-3430905/",
+      "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

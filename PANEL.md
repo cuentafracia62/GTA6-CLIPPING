@@ -1,15 +1,17 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-24 14:21 UTC*
+*Actualizado: 2026-11-24 17:04 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 1 176 | 27 | 15 | 5 | 14 | $0.00 |
+| 0 | 1 176 | 29 | 15 | 5 | 16 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-24 | short | GTA 6: Rockstar shuts down Project Leonida’s Discord #GTA6 #RockstarGames #Shorts | retenido_calidad | — |
+| 2026-11-24 | short | GTA 6 Shatters PlayStation Records, 39M Players #GTA6 #Gaming #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | [GTA 6 sparks Cyberpunk 2 dev dread, but it’s just a joke #GTA6 #Cyberpunk2 #Shorts](https://youtu.be/yWHJuYtdtuQ) | programado | — |
 | 2026-11-24 | short | GTA 6: 39 M PLAYERS on PS5 – the biggest launch ever #GTA6 #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 Glitch: 60‑fps Moment Reaffirms 30‑fps Cap #GTA6 #Rockstar #Shorts](https://youtu.be/p6RXG7UVVag) | programado | — |
@@ -46,6 +48,8 @@
 
 ## Errores recientes
 
+- 2026-11-24T16:52 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
+- 2026-11-24T16:38 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T13:48 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T09:45 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 739 palabras (esperaba 950-2100) | pollinations: 13 escenas (esperaba 32-85) | gemini: 840 palabras (esperaba 950-2100) | pollinations: 10 escenas (esperaba 32-85)`
 - 2026-11-24T09:32 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 784 palabras (esperaba 950-2100) | pollinations: 11 escenas (esperaba 32-85) | gemini: 652 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
@@ -54,5 +58,3 @@
 - 2026-11-23T16:43 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T16:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-23T09:55 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 27 escenas (esperaba 32-85) | pollinations: 20 escenas (esperaba 32-85) | gemini: 769 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
-- 2026-11-23T09:43 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 889 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 588 palabras (esperaba 950-2100) | pollinations: escena incompleta`
-- 2026-11-22T13:29 · short · `RuntimeError: Pollinations no devolvió imágenes`
