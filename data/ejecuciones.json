@@ -724,5 +724,31 @@
     "fin": "2026-11-25T16:58:34+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 188, in crear_video\n    art = investigacion.elegir_tema(formato, tema)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 304, in elegir_tema\n    art = tema_noticia(formato)\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 250, in tema_noticia\n    resp = ia.generar_json(ELEGIR.format(hoy=dt.date.today().isoformat(), lista=lista, formato=formato,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
+  },
+  {
+    "id": "20261125-172350-short",
+    "tipo": "short",
+    "inicio": "2026-11-25T17:23:50+00:00",
+    "estado": "error",
+    "tema": "Every GTA 6 delay, explained",
+    "fin": "2026-11-25T17:39:41+00:00",
+    "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 262, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261125-174141-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-25T17:41:41+00:00",
+    "estado": "ok",
+    "fin": "2026-11-25T17:41:41+00:00"
+  },
+  {
+    "id": "20261125-174141-short",
+    "tipo": "short",
+    "inicio": "2026-11-25T17:41:41+00:00",
+    "estado": "error",
+    "fin": "2026-11-25T17:42:41+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 188, in crear_video\n    art = investigacion.elegir_tema(formato, tema)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 304, in elegir_tema\n    art = tema_noticia(formato)\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 250, in tema_noticia\n    resp = ia.generar_json(ELEGIR.format(hoy=dt.date.today().isoformat(), lista=lista, formato=formato,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
   }
 ]

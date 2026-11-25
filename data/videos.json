@@ -2068,5 +2068,47 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-every-gta-6-delay-explained",
+    "fecha": "2026-11-25T17:39:41+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Every GTA 6 delay, explained",
+    "tema_clave": "Every GTA 6 delay, explained",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Why the Delays Keep Coming #GTA6 #Rockstar #Shorts",
+    "estructura": "question",
+    "estilo": "neon_atardecer",
+    "duracion": 66.8,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
