@@ -2110,5 +2110,60 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-a-former-rockstar-developer-reveals-that-gta-6-s-p",
+    "fecha": "2026-11-25T21:46:48+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "A former Rockstar developer reveals that GTA 6's personal headphones feature was originally conceived for GTA: Vice City.",
+    "tema_clave": "gta-6-headphones-feature-vice-city-origin",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Headphones Were Cut From Vice City in 2002 #Headphones #Radio #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "grafico_limpio",
+    "duracion": 46.4,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.ign.com/articles/one-of-gta-6s-best-features-was-actually-planned-for-gta-vice-city-reveals-ex-rockstar-dev",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-features-something-rockstar-tried-to-pull-off-in-grand-theft-auto-vice-city-24-years-ago-former-tech-lead-says/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.7-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "zK_DsoSgNEU",
+    "privacidad": "private",
+    "publicar_en": "2026-11-26T01:00:00Z",
+    "url": "https://youtu.be/zK_DsoSgNEU"
   }
 ]
