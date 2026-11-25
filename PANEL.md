@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-25 14:03 UTC*
+*Actualizado: 2026-11-25 16:58 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 2 022 | 39 | 21 | 0 | 24 | $0.00 |
+| 0 | 2 022 | 40 | 21 | 0 | 26 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | short | The Original GTA: Where It All Began #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
 | 2026-11-25 | short | [GTA 6 Voice Actor Responds to Sudden Viral Fame #LexieShoaibi #Mandy #Shorts](https://youtu.be/9QMGLl1uCks) | en_revision | — |
 | 2026-11-25 | largo | [GTA 6 Driving and Playstyles: Max Verstappen's 40-Hour Vice City Session](https://youtu.be/CnEpCuEvaCs) | en_revision | — |
 | 2026-11-25 | short | GTA 6: How Take‑Two Built the Empire Behind Your Freeways #TakeTwo #Rockstar #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-21 | short | [GTA 6 Console Crashes Reported by PS5 and Xbox Players #Crashes #PS5 #Shorts](https://youtu.be/sexdVlezp6w) | publicado | 103 |
 | 2026-11-21 | short | [GTA 6 Xbox Auto-Uploads Could Get You Banned #Xbox #XboxSeriesX #Shorts](https://youtu.be/GNE9rIlFyfs) | publicado | 91 |
 | 2026-11-21 | short | [GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts](https://youtu.be/QQvxGEd0T-s) | publicado | 57 |
-| 2026-11-21 | short | [Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts](https://youtu.be/gNM88eUGZwo) | publicado | 100 |
 
 ## Aprendizajes
 
@@ -53,6 +53,8 @@
 
 ## Errores recientes
 
+- 2026-11-25T16:56 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.g | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
+- 2026-11-25T16:39 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-25T09:38 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 578 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85) | gemini: 790 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
 - 2026-11-25T00:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-25T00:17 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -61,5 +63,3 @@
 - 2026-11-24T20:23 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T17:40 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T17:25 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T16:52 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T16:38 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`

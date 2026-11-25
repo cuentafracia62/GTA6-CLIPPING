@@ -2018,5 +2018,55 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/9QMGLl1uCks"
+  },
+  {
+    "id": "2026-11-25-short-the-original-grand-theft-auto-1997-where-it-all-be",
+    "fecha": "2026-11-25T16:54:04+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "The original Grand Theft Auto (1997): where it all began",
+    "tema_clave": "The original Grand Theft Auto (1997): where it all began",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "The Original GTA: Where It All Began #GTA6 #GrandTheftAuto #Shorts",
+    "estructura": "three_things",
+    "estilo": "noche_miami",
+    "duracion": 55.2,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game)"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
