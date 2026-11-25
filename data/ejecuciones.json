@@ -652,5 +652,12 @@
     "fin": "2026-11-25T00:39:17+00:00",
     "error": "RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 262, in crear_video\n    raise RuntimeError(\"Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. \"\nRuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).\n"
+  },
+  {
+    "id": "20261125-071803-estadisticas",
+    "tipo": "estadisticas",
+    "inicio": "2026-11-25T07:18:03+00:00",
+    "estado": "ok",
+    "fin": "2026-11-25T07:18:09+00:00"
   }
 ]
