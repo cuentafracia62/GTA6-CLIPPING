@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-25 10:30 UTC*
+*Actualizado: 2026-11-25 14:03 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 2 022 | 38 | 21 | 0 | 24 | $0.00 |
+| 0 | 2 022 | 39 | 21 | 0 | 24 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | short | [GTA 6 Voice Actor Responds to Sudden Viral Fame #LexieShoaibi #Mandy #Shorts](https://youtu.be/9QMGLl1uCks) | en_revision | — |
 | 2026-11-25 | largo | [GTA 6 Driving and Playstyles: Max Verstappen's 40-Hour Vice City Session](https://youtu.be/CnEpCuEvaCs) | en_revision | — |
 | 2026-11-25 | short | GTA 6: How Take‑Two Built the Empire Behind Your Freeways #TakeTwo #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-25 | short | GTA 6 patch fixes major progression bug, but some issues linger #GTA6 #Rockstar #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-21 | short | [GTA 6 Xbox Auto-Uploads Could Get You Banned #Xbox #XboxSeriesX #Shorts](https://youtu.be/GNE9rIlFyfs) | publicado | 91 |
 | 2026-11-21 | short | [GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts](https://youtu.be/QQvxGEd0T-s) | publicado | 57 |
 | 2026-11-21 | short | [Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts](https://youtu.be/gNM88eUGZwo) | publicado | 100 |
-| 2026-11-21 | largo | [GTA 6 First-Person Glitch Explained: How It Works and What It Means](https://youtu.be/G6GMX_3HJOI) | publicado | 4 |
 
 ## Aprendizajes
 

@@ -1964,5 +1964,59 @@
     "privacidad": "private",
     "publicar_en": null,
     "url": "https://youtu.be/CnEpCuEvaCs"
+  },
+  {
+    "id": "2026-11-25-short-mandy-voice-actress-lexie-shoaibi-addresses-her-su",
+    "fecha": "2026-11-25T14:03:17+00:00",
+    "formato": "short",
+    "estado": "en_revision",
+    "tema": "Mandy voice actress Lexie Shoaibi addresses her sudden viral internet fame following GTA 6's release",
+    "tema_clave": "mandy-voice-actress-viral-response",
+    "categoria": "noticia",
+    "interes_fuentes": 1,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Voice Actor Responds to Sudden Viral Fame #LexieShoaibi #Mandy #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "neon_atardecer",
+    "duracion": 44.1,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.dexerto.com/gta/gta-6s-mandy-actress-responds-to-the-internet-going-crazy-over-her-character-3430710/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "9QMGLl1uCks",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/9QMGLl1uCks"
   }
 ]
