@@ -1910,5 +1910,59 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-largo-f1-driver-max-verstappen-played-over-40-hours-of-g",
+    "fecha": "2026-11-25T10:30:00+00:00",
+    "formato": "largo",
+    "estado": "en_revision",
+    "tema": "F1 driver Max Verstappen played over 40 hours of GTA 6 over the Las Vegas Grand Prix weekend and still won the race.",
+    "tema_clave": "verstappen-gta6-las-vegas",
+    "categoria": "noticia",
+    "interes_fuentes": 1,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Driving and Playstyles: Max Verstappen's 40-Hour Vice City Session",
+    "estructura": null,
+    "estilo": "noche_miami",
+    "duracion": 431.2,
+    "escenas": 46,
+    "clips_reales": 27,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.ign.com/articles/max-verstappen-spent-40-hours-playing-gta-6-and-still-won-the-las-vegas-grand-prix"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "CnEpCuEvaCs",
+    "privacidad": "private",
+    "publicar_en": null,
+    "url": "https://youtu.be/CnEpCuEvaCs"
   }
 ]

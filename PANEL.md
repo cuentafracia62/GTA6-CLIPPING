@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-25 07:18 UTC*
+*Actualizado: 2026-11-25 10:30 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 2 022 | 37 | 21 | 0 | 23 | $0.00 |
+| 0 | 2 022 | 38 | 21 | 0 | 24 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-25 | largo | [GTA 6 Driving and Playstyles: Max Verstappen's 40-Hour Vice City Session](https://youtu.be/CnEpCuEvaCs) | en_revision | — |
 | 2026-11-25 | short | GTA 6: How Take‑Two Built the Empire Behind Your Freeways #TakeTwo #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-25 | short | GTA 6 patch fixes major progression bug, but some issues linger #GTA6 #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-24 | short | GTA 6 Patch Fixes Lockout Bug on PS5 & Xbox #GTA6 #Rockstar #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-21 | short | [GTA 6 Restricts Cheat Codes Until Story Completion #GTA6Cheats #ViceCityCheats #Shorts](https://youtu.be/QQvxGEd0T-s) | publicado | 57 |
 | 2026-11-21 | short | [Are GTA 6 Developers Facing Layoffs? #RockstarGames #GamingIndustry #Shorts](https://youtu.be/gNM88eUGZwo) | publicado | 100 |
 | 2026-11-21 | largo | [GTA 6 First-Person Glitch Explained: How It Works and What It Means](https://youtu.be/G6GMX_3HJOI) | publicado | 4 |
-| 2026-11-20 | short | [Will GTA 6 copy Red Dead 2 realism? #RDR2 #RockstarGames #Shorts](https://youtu.be/mg6RZF3tc1w) | publicado | 936 |
 
 ## Aprendizajes
 
@@ -53,6 +53,7 @@
 
 ## Errores recientes
 
+- 2026-11-25T09:38 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 578 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85) | gemini: 790 palabras (esperaba 950-2100) | pollinations: 15 escenas (esperaba 32-85)`
 - 2026-11-25T00:30 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-25T00:17 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T23:31 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
@@ -62,4 +63,3 @@
 - 2026-11-24T17:25 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T16:52 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
 - 2026-11-24T16:38 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
-- 2026-11-24T13:48 · short · `RuntimeError: Guion escrito solo por el respaldo gratuito (Pollinations): no se publica. Configura ANTHROPIC_API_KEY o GEMINI_API_KEY (ver GUIA.md).`
