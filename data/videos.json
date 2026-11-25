@@ -1818,5 +1818,97 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-rockstar-releases-a-patch-fixing-a-major-progressi",
+    "fecha": "2026-11-25T00:28:16+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Rockstar releases a patch fixing a major progression bug on PS5 and Xbox Series X/S that affected many GTA 6 players",
+    "tema_clave": "gtav6-patch-progress-issue",
+    "categoria": "noticia",
+    "interes_fuentes": 1,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 patch fixes major progression bug, but some issues linger #GTA6 #Rockstar #Shorts",
+    "estructura": "before_after",
+    "estilo": "noche_miami",
+    "duracion": 49.0,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
+  },
+  {
+    "id": "2026-11-25-short-take-two-and-the-business-of-gta",
+    "fecha": "2026-11-25T00:39:17+00:00",
+    "formato": "short",
+    "estado": "retenido_calidad",
+    "tema": "Take-Two and the business of GTA",
+    "tema_clave": "Take-Two and the business of GTA",
+    "categoria": "industria",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: How Take‑Two Built the Empire Behind Your Freeways #TakeTwo #Rockstar #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "grafico_limpio",
+    "duracion": 58.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Take-Two_Interactive"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
