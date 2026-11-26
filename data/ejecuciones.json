@@ -926,5 +926,38 @@
     "fin": "2026-11-26T20:35:53+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 188, in crear_video\n    art = investigacion.elegir_tema(formato, tema)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 304, in elegir_tema\n    art = tema_noticia(formato)\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 250, in tema_noticia\n    resp = ia.generar_json(ELEGIR.format(hoy=dt.date.today().isoformat(), lista=lista, formato=formato,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
+  },
+  {
+    "id": "20261126-212639-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-26T21:26:39+00:00",
+    "estado": "ok",
+    "fin": "2026-11-26T21:26:39+00:00"
+  },
+  {
+    "id": "20261126-212639-short",
+    "tipo": "short",
+    "inicio": "2026-11-26T21:26:39+00:00",
+    "estado": "error",
+    "fin": "2026-11-26T21:27:38+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 188, in crear_video\n    art = investigacion.elegir_tema(formato, tema)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 304, in elegir_tema\n    art = tema_noticia(formato)\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 250, in tema_noticia\n    resp = ia.generar_json(ELEGIR.format(hoy=dt.date.today().isoformat(), lista=lista, formato=formato,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
+  },
+  {
+    "id": "20261126-212938-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-26T21:29:38+00:00",
+    "estado": "ok",
+    "fin": "2026-11-26T21:29:38+00:00"
+  },
+  {
+    "id": "20261126-212938-short",
+    "tipo": "short",
+    "inicio": "2026-11-26T21:29:38+00:00",
+    "estado": "error",
+    "tema": "Rockstar Games developers vote against union recognition in a official staff vote.",
+    "fin": "2026-11-26T21:33:40+00:00",
+    "error": "GuionNoFiel: noticia sin revisión del editor: no la publico",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 309, in guion_short\n    g = _revisar(g, art, \"45-second YouTube Short\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 207, in _revisar\n    raise GuionNoFiel(\"noticia sin revisión del editor: no la publico\")\npipeline.guion.GuionNoFiel: noticia sin revisión del editor: no la publico\n"
   }
 ]
