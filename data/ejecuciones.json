@@ -825,5 +825,25 @@
     "inicio": "2026-11-26T07:16:17+00:00",
     "estado": "ok",
     "fin": "2026-11-26T07:24:08+00:00"
+  },
+  {
+    "id": "20261126-093932-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-26T09:39:32+00:00",
+    "estado": "error",
+    "tema": "Take-Two and the business of GTA",
+    "fin": "2026-11-26T09:56:26+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 503 UNAVAILABLE. {'error': {'",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
+  },
+  {
+    "id": "20261126-100126-largo",
+    "tipo": "largo",
+    "inicio": "2026-11-26T10:01:26+00:00",
+    "estado": "error",
+    "tema": "Take-Two and the business of GTA",
+    "fin": "2026-11-26T10:11:08+00:00",
+    "error": "RuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 503 UNAVAILABLE. {'error': {'",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 191, in crear_video\n    g = guion.guion_short(art) if vertical else guion.guion_largo(art, prueba=prueba)\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/guion.py\", line 364, in guion_largo\n    g = ia.generar_json(prompt, max_tokens=48000, validar=lambda d: _normalizar(d, *minimos))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
   }
 ]
