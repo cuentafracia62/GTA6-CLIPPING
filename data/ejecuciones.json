@@ -882,5 +882,23 @@
     "fin": "2026-11-26T16:45:33+00:00",
     "error": "RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 188, in crear_video\n    art = investigacion.elegir_tema(formato, tema)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 304, in elegir_tema\n    art = tema_noticia(formato)\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/investigacion.py\", line 250, in tema_noticia\n    resp = ia.generar_json(ELEGIR.format(hoy=dt.date.today().isoformat(), lista=lista, formato=formato,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/ia.py\", line 253, in generar_json\n    raise RuntimeError(\"Ninguna IA pudo responder: \" + \" | \".join(errores))\nRuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Pollinations 413: {\"status\":413,\"success\":false,\"error\":{\"code\":\"PAYLOAD_TOO_LARGE\",\"message\":\"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a\n"
+  },
+  {
+    "id": "20261126-172804-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-26T17:28:04+00:00",
+    "estado": "ok",
+    "fin": "2026-11-26T17:28:04+00:00"
+  },
+  {
+    "id": "20261126-172804-short",
+    "tipo": "short",
+    "inicio": "2026-11-26T17:28:04+00:00",
+    "estado": "ok",
+    "tema": "How GTA Online changed Rockstar forever",
+    "video": "2026-11-26-short-how-gta-online-changed-rockstar-forever",
+    "estado_video": "programado",
+    "costo_usd": 0.0,
+    "fin": "2026-11-26T17:42:16+00:00"
   }
 ]

@@ -2211,5 +2211,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-26T18:00:00Z",
     "url": "https://youtu.be/YISoB57yOoI"
+  },
+  {
+    "id": "2026-11-26-short-how-gta-online-changed-rockstar-forever",
+    "fecha": "2026-11-26T17:42:14+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "How GTA Online changed Rockstar forever",
+    "tema_clave": "How GTA Online changed Rockstar forever",
+    "categoria": "industria",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Did GTA Online Rewrite Its Destiny? #GTAOnline #RockstarGames #Shorts",
+    "estructura": "question",
+    "estilo": "postal_retro",
+    "duracion": 50.3,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_Online"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "pollinations",
+        "modelo": "openai",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "cbJ06vlOwE0",
+    "privacidad": "private",
+    "publicar_en": "2026-11-26T22:00:00Z",
+    "url": "https://youtu.be/cbJ06vlOwE0"
   }
 ]

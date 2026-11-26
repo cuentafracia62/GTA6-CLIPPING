@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-26 16:45 UTC*
+*Actualizado: 2026-11-26 17:42 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 2 205 | 43 | 22 | 1 | 36 | $0.00 |
+| 0 | 2 205 | 44 | 22 | 2 | 36 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-26 | short | [GTA 6: Did GTA Online Rewrite Its Destiny? #GTAOnline #RockstarGames #Shorts](https://youtu.be/cbJ06vlOwE0) | programado | — |
 | 2026-11-26 | short | [GTA 6 Parent Company Take-Two: The $41B Empire #TakeTwo #RockstarGames #Shorts](https://youtu.be/YISoB57yOoI) | programado | — |
 | 2026-11-25 | short | [GTA 6 Headphones Were Cut From Vice City in 2002 #Headphones #Radio #Shorts](https://youtu.be/zK_DsoSgNEU) | publicado | 33 |
 | 2026-11-25 | short | GTA 6: Why the Delays Keep Coming #GTA6 #Rockstar #Shorts | retenido_calidad | — |
@@ -39,7 +40,6 @@
 | 2026-11-22 | short | [GTA 6: Why Jason Duval is so quiet #JasonDuval #RupertHumphries #Shorts](https://youtu.be/lMyDADc025o) | publicado | 51 |
 | 2026-11-22 | short | [GTA 6 Rumor: Are Cars Now Mobile Bases? #GTA6Vehicles #GTA6Leaks #Shorts](https://youtu.be/Jc94znH81Bk) | en_revision | 0 |
 | 2026-11-22 | short | [GTA 6 Radio: How Celebrities Built the Franchise Soundtrack #GTA6 #GTAVI #Shorts](https://youtu.be/ayhzCLHReXk) | publicado | 52 |
-| 2026-11-22 | short | [The Hidden Minigame That Pulled GTA From Shelves #HotCoffee #RockstarGames #Shorts](https://youtu.be/vU9cemWV8dQ) | publicado | 49 |
 
 ## Aprendizajes
 
