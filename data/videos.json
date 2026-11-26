@@ -2165,5 +2165,51 @@
     "privacidad": "private",
     "publicar_en": "2026-11-26T01:00:00Z",
     "url": "https://youtu.be/zK_DsoSgNEU"
+  },
+  {
+    "id": "2026-11-26-short-take-two-and-the-business-of-gta",
+    "fecha": "2026-11-26T14:49:11+00:00",
+    "formato": "short",
+    "estado": "programado",
+    "tema": "Take-Two and the business of GTA",
+    "tema_clave": "Take-Two and the business of GTA",
+    "categoria": "industria",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Parent Company Take-Two: The $41B Empire #TakeTwo #RockstarGames #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "neon_atardecer",
+    "duracion": 53.4,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Take-Two_Interactive"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false,
+    "youtube_id": "YISoB57yOoI",
+    "privacidad": "private",
+    "publicar_en": "2026-11-26T18:00:00Z",
+    "url": "https://youtu.be/YISoB57yOoI"
   }
 ]
