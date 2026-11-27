@@ -2257,5 +2257,47 @@
     "privacidad": "private",
     "publicar_en": "2026-11-26T22:00:00Z",
     "url": "https://youtu.be/cbJ06vlOwE0"
+  },
+  {
+    "id": "2026-11-27-short-why-vice-city-became-a-fan-favorite",
+    "fecha": "2026-11-27T00:32:27+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Why Vice City became a fan favorite",
+    "tema_clave": "Why Vice City became a fan favorite",
+    "categoria": "historia_saga",
+    "interes_fuentes": null,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Why Vice City Became a Legend #PlayStation2 #RockstarGames #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "postal_retro",
+    "duracion": 55.5,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
