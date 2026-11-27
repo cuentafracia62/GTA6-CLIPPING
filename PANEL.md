@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-27 14:00 UTC*
+*Actualizado: 2026-11-27 17:05 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 2 205 | 46 | 22 | 2 | 45 | $0.00 |
+| 0 | 2 205 | 47 | 22 | 2 | 46 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-27 | short | GTA 6 Map Secrets: 28% of Buildings Have Interiors? #GTA6Interiors #LeonidaMap #Shorts | error_subida | — |
 | 2026-11-27 | short | GTA 6 Studio Devs Vote Down Union Deal #RockstarGames #UnionVote #Shorts | error_subida | — |
 | 2026-11-27 | short | GTA 6: Why Vice City Became a Legend #PlayStation2 #RockstarGames #Shorts | error_subida | — |
 | 2026-11-26 | short | [GTA 6: Did GTA Online Rewrite Its Destiny? #GTAOnline #RockstarGames #Shorts](https://youtu.be/cbJ06vlOwE0) | programado | — |
@@ -39,7 +40,6 @@
 | 2026-11-23 | short | GTA 6 Patch Solves Bugs, Leaves Vignette Unfixed #GTA6 #Rockstar #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | GTA 6 Patch 01.002.002: Progression Bug Fixed #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 Streamers Hit by Reggaeton Artist Copyright Strikes #GTA6 #FRANKELSANTO #Shorts](https://youtu.be/BDkIK8k6UjQ) | publicado | 176 |
-| 2026-11-22 | short | [GTA 6: Why Jason Duval is so quiet #JasonDuval #RupertHumphries #Shorts](https://youtu.be/lMyDADc025o) | publicado | 51 |
 
 ## Aprendizajes
 
@@ -54,6 +54,7 @@
 
 ## Errores recientes
 
+- 2026-11-27T16:36 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T13:50 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T09:46 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 748 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 747 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,00`
 - 2026-11-27T09:33 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 647 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 643 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85)`
@@ -63,4 +64,3 @@
 - 2026-11-26T23:25 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
 - 2026-11-26T21:29 · short · `GuionNoFiel: noticia sin revisión del editor: no la publico`
 - 2026-11-26T21:26 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`
-- 2026-11-26T20:34 · short · `RuntimeError: Ninguna IA pudo responder: gemini: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest feature | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: None | pollinations: Po`

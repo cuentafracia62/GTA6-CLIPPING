@@ -2352,5 +2352,56 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-players-discover-that-nearly-28-of-all-buildings-i",
+    "fecha": "2026-11-27T17:05:39+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Players discover that nearly 28% of all buildings in GTA 6 are fully accessible interiors",
+    "tema_clave": "gta-6-building-interiors-count",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Map Secrets: 28% of Buildings Have Interiors? #GTA6Interiors #LeonidaMap #Shorts",
+    "estructura": "three_things",
+    "estilo": "grafico_limpio",
+    "duracion": 51.2,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.pcgamer.com/games/grand-theft-auto/someone-counted-all-5-588-buildings-in-gta-6-and-it-turns-out-you-can-go-inside-28-percent-of-them/",
+      "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
