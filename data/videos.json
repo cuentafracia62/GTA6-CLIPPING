@@ -2403,5 +2403,57 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-rockstar-games-developers-reveal-details-behind-gt",
+    "fecha": "2026-11-27T20:38:53+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Rockstar Games developers reveal details behind GTA 6's Criminal Profile and empathy mechanic, citing inspiration from Red Dead Redemption 2's honor system.",
+    "tema_clave": "gta-6-criminal-profile-system-explained",
+    "categoria": "noticia",
+    "interes_fuentes": 3,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6: Rockstar Explains the Criminal Profile #CriminalProfile #RockstarGames #Shorts",
+    "estructura": "fact_check",
+    "estilo": "neon_atardecer",
+    "duracion": 52.5,
+    "escenas": 8,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.dexerto.com/gta/rockstar-explains-why-gta-6-added-its-criminal-profile-system-3431455/",
+      "https://www.pcgamer.com/games/grand-theft-auto/aspects-of-gta-6-are-inspired-by-red-dead-redemption-2s-honor-system-because-its-player-agency-was-a-hard-thing-to-ignore-and-walk-away-from/",
+      "https://www.eurogamer.net/gta-6-empathy-criminal-profile-why-rockstar-added-it-rob-nelson"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.8-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
