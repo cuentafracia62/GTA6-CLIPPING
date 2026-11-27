@@ -2299,5 +2299,58 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-rockstar-games-developers-vote-overwhelmingly-agai",
+    "fecha": "2026-11-27T14:00:38+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Rockstar Games developers vote overwhelmingly against official union recognition",
+    "tema_clave": "rockstar-union-vote-fails",
+    "categoria": "noticia",
+    "interes_fuentes": 4,
+    "estado_historia": "confirmed",
+    "titulo_yt": "GTA 6 Studio Devs Vote Down Union Deal #RockstarGames #UnionVote #Shorts",
+    "estructura": "before_after",
+    "estilo": "grafico_limpio",
+    "duracion": 54.1,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/rockstar-games-employees-vote-against-union-recognition",
+      "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621",
+      "https://www.gamesradar.com/games/grand-theft-auto/following-gta-6-release-rockstar-workers-vote-against-union-recognition-deal-but-those-in-favor-vow-to-keep-fighting/",
+      "https://www.pcgamer.com/gaming-industry/rockstar-workers-vote-overwhelmingly-against-union-recognition/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]
