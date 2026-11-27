@@ -2455,5 +2455,56 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-27-short-grand-theft-auto-6-surpasses-53-million-estimated-",
+    "fecha": "2026-11-27T23:29:16+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Grand Theft Auto 6 surpasses 53 million estimated sales in its first week, putting it among the top 13 best-selling games of all time.",
+    "tema_clave": "gta-6-week-one-sales-53m",
+    "categoria": "noticia",
+    "interes_fuentes": 2,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 First Week Sales Hit Estimated 53 Million Copies #Sales #Record #Shorts",
+    "estructura": "before_after",
+    "estilo": "postal_retro",
+    "duracion": 42.0,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.polygon.com/gta-6-how-much-sold-week-one-rockstar-games/",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sales-estimates-place-it-above-cyberpunk-2077-the-sims-and-the-first-pokemon-games-as-the-13th-best-selling-game-ever/"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

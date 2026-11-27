@@ -1075,5 +1075,22 @@
     "fin": "2026-11-27T20:38:54+00:00",
     "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
     "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 293, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
+  },
+  {
+    "id": "20261127-232220-short_clip",
+    "tipo": "short_clip",
+    "inicio": "2026-11-27T23:22:20+00:00",
+    "estado": "ok",
+    "fin": "2026-11-27T23:22:20+00:00"
+  },
+  {
+    "id": "20261127-232220-short",
+    "tipo": "short",
+    "inicio": "2026-11-27T23:22:20+00:00",
+    "estado": "error",
+    "tema": "Grand Theft Auto 6 surpasses 53 million estimated sales in its first week, putting it among the top 13 best-selling games of all time.",
+    "fin": "2026-11-27T23:29:16+00:00",
+    "error": "RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+    "traza": "Traceback (most recent call last):\n  File \"/home/runner/work/GTA6-CLIPPING/GTA6-CLIPPING/pipeline/main.py\", line 293, in crear_video\n    raise RuntimeError(f\"No se pudo subir a YouTube: {ultimo}\")\nRuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})\n"
   }
 ]
