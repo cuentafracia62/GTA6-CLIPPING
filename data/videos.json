@@ -2506,5 +2506,55 @@
       }
     ],
     "prueba": false
+  },
+  {
+    "id": "2026-11-28-short-rockstar-games-executives-state-there-are-currentl",
+    "fecha": "2026-11-28T14:04:32+00:00",
+    "formato": "short",
+    "estado": "error_subida",
+    "tema": "Rockstar Games executives state there are currently no plans to set future Grand Theft Auto games outside of the United States.",
+    "tema_clave": "gta-setting-usa-only",
+    "categoria": "noticia",
+    "interes_fuentes": 1,
+    "estado_historia": "reported",
+    "titulo_yt": "GTA 6 Location: Will Rockstar Ever Leave America? #RockstarGames #Eurogamer #Shorts",
+    "estructura": "why_it_matters",
+    "estilo": "noche_miami",
+    "duracion": 44.8,
+    "escenas": 7,
+    "clips_reales": 2,
+    "musica": "pulso synth generado",
+    "verificacion": "solo contra las fuentes del artículo",
+    "fuentes": [
+      "https://www.eurogamer.net/gta-outside-usa-unlikely-rockstar-not-had-conversations-over-anywhere-else"
+    ],
+    "costo_usd": 0.0,
+    "ia": [
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.6-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      },
+      {
+        "proveedor": "gemini",
+        "modelo": "gemini-3.5-flash",
+        "entrada": 0,
+        "salida": 0,
+        "busquedas": 0,
+        "usd": 0.0
+      }
+    ],
+    "prueba": false
   }
 ]

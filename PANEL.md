@@ -1,15 +1,16 @@
 # Panel: Leonida Report
 
-*Actualizado: 2026-11-28 09:27 UTC*
+*Actualizado: 2026-11-28 14:04 UTC*
 
 | Suscriptores | Vistas | Creados | Publicados | Programados | Errores 7d | Costo IA mes |
 |---|---|---|---|---|---|---|
-| 0 | 2 205 | 49 | 22 | 2 | 51 | $0.00 |
+| 0 | 2 205 | 50 | 22 | 2 | 52 | $0.00 |
 
 ## Últimos videos
 
 | Fecha | Formato | Título | Estado | Vistas |
 |---|---|---|---|---|
+| 2026-11-28 | short | GTA 6 Location: Will Rockstar Ever Leave America? #RockstarGames #Eurogamer #Shorts | error_subida | — |
 | 2026-11-27 | short | GTA 6 First Week Sales Hit Estimated 53 Million Copies #Sales #Record #Shorts | error_subida | — |
 | 2026-11-27 | short | GTA 6: Rockstar Explains the Criminal Profile #CriminalProfile #RockstarGames #Shorts | error_subida | — |
 | 2026-11-27 | short | GTA 6 Map Secrets: 28% of Buildings Have Interiors? #GTA6Interiors #LeonidaMap #Shorts | error_subida | — |
@@ -39,7 +40,6 @@
 | 2026-11-23 | short | GTA 6: The Real Florida Behind Leonida #GTA6 #Florida #Shorts | retenido_calidad | — |
 | 2026-11-23 | short | [GTA 6 launches, review bombs hit Zelda and more today #GTA6 #MetaCritic #Shorts](https://youtu.be/-N_74mcjTZU) | publicado | 91 |
 | 2026-11-23 | short | GTA 6 Patch: 7 Bugs Fixed, No Major Overhaul #GTA6 #GrandTheftAuto #Shorts | retenido_calidad | — |
-| 2026-11-23 | short | GTA 6 Patch Solves Bugs, Leaves Vignette Unfixed #GTA6 #Rockstar #Shorts | retenido_calidad | — |
 
 ## Aprendizajes
 
@@ -54,6 +54,7 @@
 
 ## Errores recientes
 
+- 2026-11-28T13:34 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-28T09:21 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 877 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 867 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,00`
 - 2026-11-28T09:12 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 896 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 825 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,00`
 - 2026-11-28T07:09 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
@@ -63,4 +64,3 @@
 - 2026-11-27T13:50 · short · `RuntimeError: No se pudo subir a YouTube: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
 - 2026-11-27T09:46 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 748 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,000 characters max (about 4,000 tokens), counting messages a | gemini: 747 palabras (esperaba 950-2100) | pollinations: Pollinations 413: {"status":413,"success":false,"error":{"code":"PAYLOAD_TOO_LARGE","message":"Prompt too long for the free Classic API: 16,00`
 - 2026-11-27T09:33 · largo · `RuntimeError: Ninguna IA pudo responder: gemini: 647 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85) | gemini: 643 palabras (esperaba 950-2100) | pollinations: 7 escenas (esperaba 32-85)`
-- 2026-11-27T07:16 · estadisticas · `RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})`
